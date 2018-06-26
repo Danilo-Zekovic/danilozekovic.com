@@ -41,3 +41,8 @@
 	#menu {
 		background: #242943;
 	}
+
+/* Octocat GitHub */
+	.octocat {
+		filter:progid:DXImageTransform.Microsoft.Glow(Color=white,Strength=5);
+	}

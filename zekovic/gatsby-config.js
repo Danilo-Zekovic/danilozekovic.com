@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Danilo Zekovic",
-    author: "Danilo Zekovic",
-    description: "Danilo Zekovic portofolio site"
+    title: "Danilo Zeković",
+    author: "Danilo Zeković",
+    description: "Danilo Zeković portofolio site"
   },
   pathPrefix: '/',
   plugins: [
