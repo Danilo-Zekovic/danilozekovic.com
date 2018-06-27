@@ -10,6 +10,8 @@ import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 
+import octocat from '../assets/images/octocat.png'
+
 class HomeIndex extends React.Component {
     render() {
         const siteTitle = this.props.data.site.siteMetadata.title

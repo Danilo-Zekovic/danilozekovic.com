@@ -977,7 +977,7 @@
       "resolve": "/home/danilo/PROJECTS/portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "28b6a057861260f31629449f19be1aff",
+      "version": "4c0a4ca96ec4c851f9fa8e4603db6b3f",
       "pluginOptions": {
         "plugins": []
       },
@@ -1059,7 +1059,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "49f80dde1212ce9ecace80525950a894",
+        "contentDigest": "c09199d9d02860986069086db0d72013",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1150,16 +1150,16 @@
       "siteMetadata": {
         "title": "Danilo Zeković",
         "author": "Danilo Zeković",
-        "description": "Danilo Zeković portofolio."
+        "description": "Danilo Zeković portofolio site"
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-27T14:12:29.701Z",
+      "buildTime": "2018-06-27T14:25:58.003Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "844eaecbebfb44817dc4b3bde3f21f79",
+        "contentDigest": "7deb8dbf431eb06f9bc62bd1e7017e38",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1606,7 +1606,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "88714e6fc267e5d5ec870e6a11d90390",
+        "contentDigest": "1d662ef045371abbf020b56cbe5871f8",
         "type": "Directory",
         "description": "Directory \"src/assets/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1615,12 +1615,12 @@
       "absolutePath": "/home/danilo/PROJECTS/portfolio/src/assets/images",
       "relativePath": "",
       "extension": "",
-      "size": 211,
-      "prettySize": "211 B",
-      "modifiedTime": "2018-06-27T09:55:28.228Z",
-      "accessTime": "2018-06-27T09:59:14.045Z",
-      "changeTime": "2018-06-27T09:55:28.228Z",
-      "birthTime": "2018-06-27T09:55:28.228Z",
+      "size": 230,
+      "prettySize": "230 B",
+      "modifiedTime": "2018-06-27T14:19:34.260Z",
+      "accessTime": "2018-06-27T14:19:35.188Z",
+      "changeTime": "2018-06-27T14:19:34.260Z",
+      "birthTime": "2018-06-27T14:19:34.260Z",
       "root": "/",
       "dir": "/home/danilo/PROJECTS/portfolio/src/assets",
       "base": "images",
@@ -1636,14 +1636,61 @@
       "blksize": 4096,
       "ino": 35493538,
       "blocks": 0,
-      "atimeMs": 1530093554044.9763,
-      "mtimeMs": 1530093328227.9412,
-      "ctimeMs": 1530093328227.9412,
-      "birthtimeMs": 1530093328227.9412,
-      "atime": "2018-06-27T09:59:14.045Z",
-      "mtime": "2018-06-27T09:55:28.228Z",
-      "ctime": "2018-06-27T09:55:28.228Z",
-      "birthtime": "2018-06-27T09:55:28.228Z"
+      "atimeMs": 1530109175187.9158,
+      "mtimeMs": 1530109174259.9084,
+      "ctimeMs": 1530109174259.9084,
+      "birthtimeMs": 1530109174259.9084,
+      "atime": "2018-06-27T14:19:35.188Z",
+      "mtime": "2018-06-27T14:19:34.260Z",
+      "ctime": "2018-06-27T14:19:34.260Z",
+      "birthtime": "2018-06-27T14:19:34.260Z"
+    },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/octocat.png absPath of file": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/octocat.png absPath of file",
+      "children": [
+        "/home/danilo/PROJECTS/portfolio/src/assets/images/octocat.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b2ffb3a32c2e07826c887815599de6f3",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/octocat.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/danilo/PROJECTS/portfolio/src/assets/images/octocat.png",
+      "relativePath": "octocat.png",
+      "extension": "png",
+      "size": 35407,
+      "prettySize": "35.4 kB",
+      "modifiedTime": "2018-06-27T14:19:34.263Z",
+      "accessTime": "2018-06-27T14:19:35.188Z",
+      "changeTime": "2018-06-27T14:19:34.263Z",
+      "birthTime": "2018-06-27T14:19:34.263Z",
+      "root": "/",
+      "dir": "/home/danilo/PROJECTS/portfolio/src/assets/images",
+      "base": "octocat.png",
+      "ext": ".png",
+      "name": "octocat",
+      "relativeDirectory": "",
+      "dev": 64768,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 34883156,
+      "blocks": 72,
+      "atimeMs": 1530109175187.9158,
+      "mtimeMs": 1530109174262.9084,
+      "ctimeMs": 1530109174262.9084,
+      "birthtimeMs": 1530109174262.9084,
+      "atime": "2018-06-27T14:19:35.188Z",
+      "mtime": "2018-06-27T14:19:34.263Z",
+      "ctime": "2018-06-27T14:19:34.263Z",
+      "birthtime": "2018-06-27T14:19:34.263Z"
     },
     "/home/danilo/PROJECTS/portfolio/src/assets/images/pic02.jpg absPath of file": {
       "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic02.jpg absPath of file",
@@ -1691,6 +1738,16 @@
       "mtime": "2018-06-27T09:55:28.226Z",
       "ctime": "2018-06-27T09:55:28.226Z",
       "birthtime": "2018-06-27T09:55:28.226Z"
+    },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/octocat.png absPath of file >> ImageSharp": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/octocat.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/octocat.png absPath of file",
+      "internal": {
+        "contentDigest": "b2ffb3a32c2e07826c887815599de6f3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "/home/danilo/PROJECTS/portfolio/src/assets/images/pic02.jpg absPath of file >> ImageSharp": {
       "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic02.jpg absPath of file >> ImageSharp",
@@ -2345,7 +2402,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "60e47ab100543398a10600101f17b446",
+        "contentDigest": "6e77f76b239e7af10acc94c41e282731",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2366,7 +2423,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "92864a038515449fb66065bcba93eae2",
+        "contentDigest": "c88124a3a659370b837147fa0449538e",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2387,7 +2444,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "234067f2502e8946961507a14d1d95ef",
+        "contentDigest": "4e9e34f1bb10ce10a3a376d15e249e55",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2408,7 +2465,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fab31a45350639871ef05a7f1740102f",
+        "contentDigest": "97d9f88da8c91df8d6b2239d5edf2676",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2429,7 +2486,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "edd2df763cca82da8886a1e57fa0d6d3",
+        "contentDigest": "02f358eee7aacb3c7ef2d286a1c1448e",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2450,7 +2507,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c937f572b31ad60df4cfcc2c916709be",
+        "contentDigest": "fe91a9bde3208f9fddf5584af5a169c3",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2471,7 +2528,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8bf2e5d1461d1a18464c824204e9702e",
+        "contentDigest": "ed6b3fec7c0366b7348c682afa2476ad",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2492,7 +2549,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "80e420b4410164d57d7c6b0e811c4e3f",
+        "contentDigest": "ef681d8c6eb00dab1d4f343b8e6cd30a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2513,7 +2570,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7f90ffd0bc4d078945e97b028ed4e633",
+        "contentDigest": "536056370fdea153e70b9dfa2ffd2e36",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2534,7 +2591,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "671399a34c1d75f9f7254b39702abce5",
+        "contentDigest": "f03dfa56268b5bfa7bcdf1aa8ef5d448",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2555,7 +2612,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "072a49c7d053d473c730bdd841904669",
+        "contentDigest": "5b346817ba98ebb97afd1f4e0489ef4a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2563,7 +2620,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "7a53618ba6fcbc863d944544c7aeca54"
+    "PLUGINS_HASH": "da723d92320766c47bea53f092667e0d"
   },
   "componentDataDependencies": {
     "nodes": {
