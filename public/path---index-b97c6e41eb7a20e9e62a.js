@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{352:function(o,t){o.exports={data:{site:{siteMetadata:{title:"Danilo Zeković Portfolio",description:"Danilo Zeković portofolio."}}},pathContext:{}}}});
+//# sourceMappingURL=path---index-b97c6e41eb7a20e9e62a.js.map

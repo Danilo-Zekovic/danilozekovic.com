@@ -977,7 +977,7 @@
       "resolve": "/home/danilo/PROJECTS/portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "857e5a17e101833a6b00a04422515dec",
+      "version": "28b6a057861260f31629449f19be1aff",
       "pluginOptions": {
         "plugins": []
       },
@@ -1059,7 +1059,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c76a5524611b3559a38bd02af9a0c524",
+        "contentDigest": "49f80dde1212ce9ecace80525950a894",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1148,18 +1148,18 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Starter - Forty by HTML5 UP",
-        "author": "Hunter Chang",
-        "description": "A Gatsby.js Starter based on Forty by HTML5 UP"
+        "title": "Danilo Zeković",
+        "author": "Danilo Zeković",
+        "description": "Danilo Zeković portofolio."
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-06-27T13:37:09.030Z",
+      "buildTime": "2018-06-27T14:12:29.701Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5df76c55b0418e9e92eccc516506e67c",
+        "contentDigest": "844eaecbebfb44817dc4b3bde3f21f79",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1749,6 +1749,194 @@
       "ctime": "2018-06-27T09:55:28.225Z",
       "birthtime": "2018-06-27T09:55:28.225Z"
     },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file",
+      "children": [
+        "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e2db96cd5eec25ebe26cb0525e9589d6",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic04.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg",
+      "relativePath": "pic04.jpg",
+      "extension": "jpg",
+      "size": 77100,
+      "prettySize": "77.1 kB",
+      "modifiedTime": "2018-06-27T09:55:28.226Z",
+      "accessTime": "2018-06-27T09:59:14.066Z",
+      "changeTime": "2018-06-27T09:55:28.226Z",
+      "birthTime": "2018-06-27T09:55:28.226Z",
+      "root": "/",
+      "dir": "/home/danilo/PROJECTS/portfolio/src/assets/images",
+      "base": "pic04.jpg",
+      "ext": ".jpg",
+      "name": "pic04",
+      "relativeDirectory": "",
+      "dev": 64768,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 35493544,
+      "blocks": 152,
+      "atimeMs": 1530093554065.9766,
+      "mtimeMs": 1530093328225.9412,
+      "ctimeMs": 1530093328225.9412,
+      "birthtimeMs": 1530093328225.9412,
+      "atime": "2018-06-27T09:59:14.066Z",
+      "mtime": "2018-06-27T09:55:28.226Z",
+      "ctime": "2018-06-27T09:55:28.226Z",
+      "birthtime": "2018-06-27T09:55:28.226Z"
+    },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file",
+      "children": [
+        "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d82e61241e70622b517cab61e99a61ee",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic05.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg",
+      "relativePath": "pic05.jpg",
+      "extension": "jpg",
+      "size": 83499,
+      "prettySize": "83.5 kB",
+      "modifiedTime": "2018-06-27T09:55:28.226Z",
+      "accessTime": "2018-06-27T09:59:14.066Z",
+      "changeTime": "2018-06-27T09:55:28.226Z",
+      "birthTime": "2018-06-27T09:55:28.226Z",
+      "root": "/",
+      "dir": "/home/danilo/PROJECTS/portfolio/src/assets/images",
+      "base": "pic05.jpg",
+      "ext": ".jpg",
+      "name": "pic05",
+      "relativeDirectory": "",
+      "dev": 64768,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 35493545,
+      "blocks": 168,
+      "atimeMs": 1530093554065.9766,
+      "mtimeMs": 1530093328225.9412,
+      "ctimeMs": 1530093328225.9412,
+      "birthtimeMs": 1530093328225.9412,
+      "atime": "2018-06-27T09:59:14.066Z",
+      "mtime": "2018-06-27T09:55:28.226Z",
+      "ctime": "2018-06-27T09:55:28.226Z",
+      "birthtime": "2018-06-27T09:55:28.226Z"
+    },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file",
+      "children": [
+        "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "05653d205a36da91b3161519999f69c1",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic06.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg",
+      "relativePath": "pic06.jpg",
+      "extension": "jpg",
+      "size": 115307,
+      "prettySize": "115 kB",
+      "modifiedTime": "2018-06-27T09:55:28.227Z",
+      "accessTime": "2018-06-27T09:59:14.074Z",
+      "changeTime": "2018-06-27T09:55:28.227Z",
+      "birthTime": "2018-06-27T09:55:28.227Z",
+      "root": "/",
+      "dir": "/home/danilo/PROJECTS/portfolio/src/assets/images",
+      "base": "pic06.jpg",
+      "ext": ".jpg",
+      "name": "pic06",
+      "relativeDirectory": "",
+      "dev": 64768,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 35493546,
+      "blocks": 232,
+      "atimeMs": 1530093554073.9766,
+      "mtimeMs": 1530093328226.9412,
+      "ctimeMs": 1530093328226.9412,
+      "birthtimeMs": 1530093328226.9412,
+      "atime": "2018-06-27T09:59:14.074Z",
+      "mtime": "2018-06-27T09:55:28.227Z",
+      "ctime": "2018-06-27T09:55:28.227Z",
+      "birthtime": "2018-06-27T09:55:28.227Z"
+    },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file",
+      "children": [
+        "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "629ab62f6ddb5d5b5d903cbd4343aa99",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic07.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg",
+      "relativePath": "pic07.jpg",
+      "extension": "jpg",
+      "size": 126687,
+      "prettySize": "127 kB",
+      "modifiedTime": "2018-06-27T09:55:28.227Z",
+      "accessTime": "2018-06-27T09:59:14.074Z",
+      "changeTime": "2018-06-27T09:55:28.227Z",
+      "birthTime": "2018-06-27T09:55:28.227Z",
+      "root": "/",
+      "dir": "/home/danilo/PROJECTS/portfolio/src/assets/images",
+      "base": "pic07.jpg",
+      "ext": ".jpg",
+      "name": "pic07",
+      "relativeDirectory": "",
+      "dev": 64768,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 35493547,
+      "blocks": 248,
+      "atimeMs": 1530093554073.9766,
+      "mtimeMs": 1530093328226.9412,
+      "ctimeMs": 1530093328226.9412,
+      "birthtimeMs": 1530093328226.9412,
+      "atime": "2018-06-27T09:59:14.074Z",
+      "mtime": "2018-06-27T09:55:28.227Z",
+      "ctime": "2018-06-27T09:55:28.227Z",
+      "birthtime": "2018-06-27T09:55:28.227Z"
+    },
     "/home/danilo/PROJECTS/portfolio/src/assets/images/pic08.jpg absPath of file": {
       "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic08.jpg absPath of file",
       "children": [
@@ -1937,146 +2125,95 @@
       "ctime": "2018-06-27T09:55:28.228Z",
       "birthtime": "2018-06-27T09:55:28.228Z"
     },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file",
-      "children": [
-        "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic01.jpg absPath of file >> ImageSharp": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic01.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic01.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f7c500d0c7ce97f4fa08f6f797eaf142",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file >> ImageSharp": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file",
       "internal": {
         "contentDigest": "e2db96cd5eec25ebe26cb0525e9589d6",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/assets/images/pic04.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg",
-      "relativePath": "pic04.jpg",
-      "extension": "jpg",
-      "size": 77100,
-      "prettySize": "77.1 kB",
-      "modifiedTime": "2018-06-27T09:55:28.226Z",
-      "accessTime": "2018-06-27T09:59:14.066Z",
-      "changeTime": "2018-06-27T09:55:28.226Z",
-      "birthTime": "2018-06-27T09:55:28.226Z",
-      "root": "/",
-      "dir": "/home/danilo/PROJECTS/portfolio/src/assets/images",
-      "base": "pic04.jpg",
-      "ext": ".jpg",
-      "name": "pic04",
-      "relativeDirectory": "",
-      "dev": 64768,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 35493544,
-      "blocks": 152,
-      "atimeMs": 1530093554065.9766,
-      "mtimeMs": 1530093328225.9412,
-      "ctimeMs": 1530093328225.9412,
-      "birthtimeMs": 1530093328225.9412,
-      "atime": "2018-06-27T09:59:14.066Z",
-      "mtime": "2018-06-27T09:55:28.226Z",
-      "ctime": "2018-06-27T09:55:28.226Z",
-      "birthtime": "2018-06-27T09:55:28.226Z"
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file",
-      "children": [
-        "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file",
       "internal": {
         "contentDigest": "d82e61241e70622b517cab61e99a61ee",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/assets/images/pic05.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg",
-      "relativePath": "pic05.jpg",
-      "extension": "jpg",
-      "size": 83499,
-      "prettySize": "83.5 kB",
-      "modifiedTime": "2018-06-27T09:55:28.226Z",
-      "accessTime": "2018-06-27T09:59:14.066Z",
-      "changeTime": "2018-06-27T09:55:28.226Z",
-      "birthTime": "2018-06-27T09:55:28.226Z",
-      "root": "/",
-      "dir": "/home/danilo/PROJECTS/portfolio/src/assets/images",
-      "base": "pic05.jpg",
-      "ext": ".jpg",
-      "name": "pic05",
-      "relativeDirectory": "",
-      "dev": 64768,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 35493545,
-      "blocks": 168,
-      "atimeMs": 1530093554065.9766,
-      "mtimeMs": 1530093328225.9412,
-      "ctimeMs": 1530093328225.9412,
-      "birthtimeMs": 1530093328225.9412,
-      "atime": "2018-06-27T09:59:14.066Z",
-      "mtime": "2018-06-27T09:55:28.226Z",
-      "ctime": "2018-06-27T09:55:28.226Z",
-      "birthtime": "2018-06-27T09:55:28.226Z"
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file",
-      "children": [
-        "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file",
       "internal": {
         "contentDigest": "05653d205a36da91b3161519999f69c1",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/assets/images/pic06.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg",
-      "relativePath": "pic06.jpg",
-      "extension": "jpg",
-      "size": 115307,
-      "prettySize": "115 kB",
-      "modifiedTime": "2018-06-27T09:55:28.227Z",
-      "accessTime": "2018-06-27T09:59:14.074Z",
-      "changeTime": "2018-06-27T09:55:28.227Z",
-      "birthTime": "2018-06-27T09:55:28.227Z",
-      "root": "/",
-      "dir": "/home/danilo/PROJECTS/portfolio/src/assets/images",
-      "base": "pic06.jpg",
-      "ext": ".jpg",
-      "name": "pic06",
-      "relativeDirectory": "",
-      "dev": 64768,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 35493546,
-      "blocks": 232,
-      "atimeMs": 1530093554073.9766,
-      "mtimeMs": 1530093328226.9412,
-      "ctimeMs": 1530093328226.9412,
-      "birthtimeMs": 1530093328226.9412,
-      "atime": "2018-06-27T09:59:14.074Z",
-      "mtime": "2018-06-27T09:55:28.227Z",
-      "ctime": "2018-06-27T09:55:28.227Z",
-      "birthtime": "2018-06-27T09:55:28.227Z"
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file",
+      "internal": {
+        "contentDigest": "629ab62f6ddb5d5b5d903cbd4343aa99",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic08.jpg absPath of file",
+      "internal": {
+        "contentDigest": "4c3ce95d53bcf4f4e5c3079df9c3e543",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic09.jpg absPath of file",
+      "internal": {
+        "contentDigest": "d59e4b49832baeb9c62a7a9d6c070f8c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic10.jpg absPath of file",
+      "internal": {
+        "contentDigest": "fc2217a3259dbe4bf90380771114f39c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic11.jpg absPath of file >> ImageSharp": {
+      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic11.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic11.jpg absPath of file",
+      "internal": {
+        "contentDigest": "d9e39c8bf987cfe48a7aff0b47169898",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "/home/danilo/PROJECTS/portfolio/src/assets/images/pic03.jpg absPath of file": {
       "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic03.jpg absPath of file",
@@ -2125,149 +2262,12 @@
       "ctime": "2018-06-27T09:55:28.226Z",
       "birthtime": "2018-06-27T09:55:28.226Z"
     },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file",
-      "children": [
-        "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "629ab62f6ddb5d5b5d903cbd4343aa99",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/assets/images/pic07.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg",
-      "relativePath": "pic07.jpg",
-      "extension": "jpg",
-      "size": 126687,
-      "prettySize": "127 kB",
-      "modifiedTime": "2018-06-27T09:55:28.227Z",
-      "accessTime": "2018-06-27T09:59:14.074Z",
-      "changeTime": "2018-06-27T09:55:28.227Z",
-      "birthTime": "2018-06-27T09:55:28.227Z",
-      "root": "/",
-      "dir": "/home/danilo/PROJECTS/portfolio/src/assets/images",
-      "base": "pic07.jpg",
-      "ext": ".jpg",
-      "name": "pic07",
-      "relativeDirectory": "",
-      "dev": 64768,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 35493547,
-      "blocks": 248,
-      "atimeMs": 1530093554073.9766,
-      "mtimeMs": 1530093328226.9412,
-      "ctimeMs": 1530093328226.9412,
-      "birthtimeMs": 1530093328226.9412,
-      "atime": "2018-06-27T09:59:14.074Z",
-      "mtime": "2018-06-27T09:55:28.227Z",
-      "ctime": "2018-06-27T09:55:28.227Z",
-      "birthtime": "2018-06-27T09:55:28.227Z"
-    },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic01.jpg absPath of file >> ImageSharp": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic01.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic01.jpg absPath of file",
-      "internal": {
-        "contentDigest": "f7c500d0c7ce97f4fa08f6f797eaf142",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic08.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic08.jpg absPath of file",
-      "internal": {
-        "contentDigest": "4c3ce95d53bcf4f4e5c3079df9c3e543",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic09.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic09.jpg absPath of file",
-      "internal": {
-        "contentDigest": "d59e4b49832baeb9c62a7a9d6c070f8c",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic10.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic10.jpg absPath of file",
-      "internal": {
-        "contentDigest": "fc2217a3259dbe4bf90380771114f39c",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic11.jpg absPath of file >> ImageSharp": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic11.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic11.jpg absPath of file",
-      "internal": {
-        "contentDigest": "d9e39c8bf987cfe48a7aff0b47169898",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file >> ImageSharp": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic04.jpg absPath of file",
-      "internal": {
-        "contentDigest": "e2db96cd5eec25ebe26cb0525e9589d6",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic05.jpg absPath of file",
-      "internal": {
-        "contentDigest": "d82e61241e70622b517cab61e99a61ee",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic06.jpg absPath of file",
-      "internal": {
-        "contentDigest": "05653d205a36da91b3161519999f69c1",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "/home/danilo/PROJECTS/portfolio/src/assets/images/pic03.jpg absPath of file >> ImageSharp": {
       "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic03.jpg absPath of file >> ImageSharp",
       "children": [],
       "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic03.jpg absPath of file",
       "internal": {
         "contentDigest": "3677838948c068ce88d237eaea766a51",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp": {
-      "id": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/home/danilo/PROJECTS/portfolio/src/assets/images/pic07.jpg absPath of file",
-      "internal": {
-        "contentDigest": "629ab62f6ddb5d5b5d903cbd4343aa99",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -2345,7 +2345,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c15f7a2b3e13dbb692a280841141a1ad",
+        "contentDigest": "60e47ab100543398a10600101f17b446",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2366,7 +2366,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b3d657d8f299388e4ea09fd135909d4b",
+        "contentDigest": "92864a038515449fb66065bcba93eae2",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2387,8 +2387,50 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "16699b816ed7d6f1d4fc7e6417749b77",
+        "contentDigest": "234067f2502e8946961507a14d1d95ef",
         "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/home/danilo/PROJECTS/portfolio/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/danilo/PROJECTS/portfolio/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fab31a45350639871ef05a7f1740102f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/home/danilo/PROJECTS/portfolio/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/danilo/PROJECTS/portfolio/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "edd2df763cca82da8886a1e57fa0d6d3",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -2408,7 +2450,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6ecde3178c57efc7980bf08149e6094b",
+        "contentDigest": "c937f572b31ad60df4cfcc2c916709be",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2429,7 +2471,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2df5ce815bb39046628ed5d75fcee49e",
+        "contentDigest": "8bf2e5d1461d1a18464c824204e9702e",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2450,7 +2492,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9d2ba3ee73c5f2ec60a4235b55a6c870",
+        "contentDigest": "80e420b4410164d57d7c6b0e811c4e3f",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2471,7 +2513,49 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d2b75e76f377453b826d1cedf560c2ea",
+        "contentDigest": "7f90ffd0bc4d078945e97b028ed4e633",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /speaker/": {
+      "layout": "index",
+      "jsonName": "speaker.json",
+      "internalComponentName": "ComponentSpeaker",
+      "path": "/speaker/",
+      "component": "/home/danilo/PROJECTS/portfolio/src/pages/speaker.js",
+      "componentChunkName": "component---src-pages-speaker-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/danilo/PROJECTS/portfolio/src/pages/speaker.js",
+      "id": "SitePage /speaker/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "671399a34c1d75f9f7254b39702abce5",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /work/": {
+      "layout": "index",
+      "jsonName": "work.json",
+      "internalComponentName": "ComponentWork",
+      "path": "/work/",
+      "component": "/home/danilo/PROJECTS/portfolio/src/pages/work.js",
+      "componentChunkName": "component---src-pages-work-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/danilo/PROJECTS/portfolio/src/pages/work.js",
+      "id": "SitePage /work/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "072a49c7d053d473c730bdd841904669",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2479,7 +2563,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a4195432315570b5e99d0ea0fc3cae5a"
+    "PLUGINS_HASH": "7a53618ba6fcbc863d944544c7aeca54"
   },
   "componentDataDependencies": {
     "nodes": {

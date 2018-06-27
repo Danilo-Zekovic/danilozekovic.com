@@ -28,17 +28,17 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>About</h3>
+                                <p>Learn more about me.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/about" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Work</h3>
+                                <p>Learn in more detail about my corporate and customer work.</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/work" className="link primary"></Link>
                         </article>
 
                     </section>

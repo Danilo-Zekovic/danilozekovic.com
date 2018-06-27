@@ -21,6 +21,20 @@
         "path": "/my-second-post/"
     },
     {
+        "componentChunkName": "component---src-pages-about-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "about.json",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contact-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "contact.json",
+        "path": "/contact/"
+    },
+    {
         "componentChunkName": "component---src-pages-elements-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -47,5 +61,19 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "landing.json",
         "path": "/landing/"
+    },
+    {
+        "componentChunkName": "component---src-pages-speaker-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "speaker.json",
+        "path": "/speaker/"
+    },
+    {
+        "componentChunkName": "component---src-pages-work-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "work.json",
+        "path": "/work/"
     }
 ]
