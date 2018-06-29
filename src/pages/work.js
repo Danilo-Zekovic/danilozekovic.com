@@ -1,79 +1,62 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import BannerLanding from '../components/BannerLanding'
+import BannerWork from '../components/BannerWork'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import cps from '../assets/images/pic08.jpg'
+import crm from '../assets/images/pic09.jpg'
 
 const Work = (props) => (
     <div>
         <Helmet>
-            <title>Landing - Forty by HTML5 UP</title>
-            <meta name="description" content="Landing Page" />
+            <title>Work</title>
+            <meta name="description" content="My Work Page" />
         </Helmet>
 
-        <BannerLanding />
+        <BannerWork />
 
         <div id="main">
-            <section id="one">
-                <div className="inner">
-                    <header className="major">
-                        <h2>Sed amet aliquam</h2>
-                    </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-                </div>
-            </section>
-            <section id="two" className="spotlights">
+            <section id="one" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic08} alt="" />
-                    </Link>
+                    {/*<Link to="/generic" className="image">*/}
+                        <img src={cps} alt="" />
+                    {/*</Link>*/}
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>Compass Payment Services (CPS)</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>CPS is the fuel card and fleet management system in the United States and Canada. It provides customers with fuel cards that drivers can use on gas stations including Pilot and Flying J.
+Built with Javascript, JQuery, and Bootstrap on the frontend and Node.js, Express.js and MongoDB on the backend. <br/><br/>
+<i>Technology stack: Javascript, JQuery, Node.js, Express.js, MongoDB</i>
+</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><a href="https://compasspaymentservices.com/" target="_blank" className="button">Visit Web Presentation</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
-                    </Link>
+                    {/*<Link to="/generic" className="image">*/}
+                        <img src={crm} alt="" />
+                    {/*</Link>*/}
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>Customer Relationship Menagment (CRM)</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>"System for managing company's interaction with potential and current customers.
+Frontend built with JQuery and Javascript, while the backend was implemented with Express.js, Node.js and MongoDB.
+Danilo worked as a full stack developer, building new functionalities from requirements as well as adding the necessary database architecture to support that. He also worked on integrating Adobe Sign into the app, client specific data scripts and bug fixing."<br/><br/>
+<i>Technology stack: Javascript, JQuery, Node.js, Express.js, MongoDB</i>
+</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
+                                <li><a href="https://www.compassholding.net/" className="button">Visit Company Web Page</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Sed nunc ligula</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+
             </section>
         </div>
 
