@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import BannerLanding from '../components/BannerLanding'
+import BannerPage from '../components/BannerPage'
 
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
@@ -14,7 +14,10 @@ const Speaker = (props) => (
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        <BannerLanding />
+        <BannerPage
+          title="Speaker"
+          description="Here you will find description of topics and conventions on which I spoke."
+          />
 
         <div id="main">
             <section id="one">
