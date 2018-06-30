@@ -9,7 +9,7 @@ import crm from '../assets/images/pic09.jpg'
 const Work = (props) => (
     <div>
         <Helmet>
-            <title>Work</title>
+            <title>Work - Danilo Zeković</title>
             <meta name="description" content="My Work Page" />
         </Helmet>
 

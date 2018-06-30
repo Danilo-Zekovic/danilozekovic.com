@@ -11,6 +11,7 @@ import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 import zeka from '../assets/images/zeka.jpg'
+import oscon from '../assets/images/oscon.jpg'
 
 import octocat from '../assets/images/octocat.png'
 
@@ -51,11 +52,21 @@ class HomeIndex extends React.Component {
                             <header className="major">
                                 <h2>GitHub</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                            <p>Some of my personal work can be found on GitHub. Also, there you will find my school work as well.</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><a href="https://github.com/Danilo-Zekovic" target="_blank" className="button next">Visit My GitHub</a></li>
                             </ul>
                         </div>
+                    </section>
+                    <section id="three" className="tiles">
+                        <article style={{backgroundImage: `url(${oscon})`, width:`100%`}}>
+                            <header className="major">
+                                <h3>Speaker</h3>
+                                <p>I spoke multiple times at the conventions, find out more about it.</p>
+                            </header>
+                            <Link to="/speaker" className="link primary"></Link>
+                        </article>
+
                     </section>
                 </div>
                 <Contact/>
