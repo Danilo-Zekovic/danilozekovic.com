@@ -24,9 +24,13 @@ const Contact = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Social Media</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <ul>
+                      <li><a href="https://www.facebook.com/danilo.zekovic.5" target="_blank" className="icon alt fa-facebook"><span className="label">Facebook</span></a></li>
+                      <li><a href="https://github.com/Danilo-Zekovic" target="_blank" className="icon alt fa-github"><span className="label">GitHub</span></a></li>
+                      <li><a href="https://www.linkedin.com/in/danilo-zekovic-7a85b7b9/" target="_blank" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
+                    </ul>
                 </div>
             </section>
             <section id="two" className="spotlights">
