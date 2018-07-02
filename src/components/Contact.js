@@ -18,7 +18,7 @@ const Contact = (props) => (
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
+                        {/*<li><input type="submit" value="Send Message" className="special" /></li>*/}
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
@@ -35,7 +35,8 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>RS: (+381) 64-234-7616</span>
+                        <span>RS: (+381) 64-234-7616</span><br/>
+                        <span>Note: this phone number is a Serbian area number. So if you want to avoid international phone call charges you can use that number to find me on Viber or WhatsApp.</span>
                     </div>
                 </section>
                 <section>
