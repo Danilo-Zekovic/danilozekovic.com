@@ -9,7 +9,7 @@ const Footer = (props) => (
                 <li><a href="https://www.linkedin.com/in/danilo-zekovic-7a85b7b9/" target="_blank" className="icon alt fa-linkedin"><span className="label">LinkedIn</span></a></li>
             </ul>
             <ul className="copyright">
-                <li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                <li>&copy; danilozekovic.com</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
             </ul>
         </div>
     </footer>
