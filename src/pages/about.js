@@ -6,6 +6,7 @@ import BannerPage from '../components/BannerPage'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import oscon from '../assets/images/oscon.jpg'
 
 const About = (props) => (
     <div>
@@ -24,7 +25,7 @@ const About = (props) => (
                 <div className="inner">
                     <p>I was born and raised in Novi Sad, Serbia. Most of my childhood I spent on the banks of river Danube, which was and still is a big part of my life. At the age of 7 I started playing basketball and played it for 16 years, winning the Serbian U18 championship in 2010. Also, I had a 4 year basketball college carrear. <br/>From the young age I showed intreset in mathematics and technology, mostly tahnks to both of my grandfathers. Both of them were engeeners and thought me how to use many diferent tools and how to build stuff. Everything that they thought me lead to me discovering computers, but it wasnt until professor Brian Capouch that I entirely fell in love with coding. Since then I dedicated my time to improving myself and creating software. </p>
 
-                    <p>My work and presentations can be found on the pages Work and Speaker:</p>
+                    <p>My work and convention presentations can be found on the pages Work and Speaker:</p>
 
                     <Link to="/work" className="button">
                         <p>Work</p>
@@ -38,6 +39,33 @@ const About = (props) => (
             <section id="two">
                 <div className="inner">
                     <header className="major">
+                        <h2>Work Experience</h2>
+                    </header>
+                    <h3><b>Symphony</b>, <i>Novi Sad, Serbia</i></h3>
+                    <h4>Software Engineer</h4>
+                    <h5>2018-Present</h5>
+                    <ul>
+                      <li>Developing web applications for clients</li>
+                      <li>Using latest web technologies: JavaScript, React, Angular 6, GraphQL...</li>
+                      <li><a href="http://symphony.is/" target="_blank">Symphony Website</a></li>
+                    </ul>
+
+                    <hr/>
+
+                    <h3><b>Compass Holding</b>, <i>Burr Ridge, IL</i></h3>
+                    <h4>Contractor, Software Developer</h4>
+                    <h5>2016-Present</h5>
+                    <ul>
+                      <li>Working on Customer Relationship Management (CRM) application, which is custom built for internal use</li>
+                      <li>Working on Compass Payment Services application, management of fuel cards and truck driver spending</li>
+                      <li>Work done using JavaScript, MongoDB, Node.js, on the CentOS server</li>
+                      <li><a href="https://www.compassholding.net/" target="_blank">Compass Holding Website</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="three">
+                <div className="inner">
+                    <header className="major">
                         <h2>Education</h2>
                     </header>
                     <h3><b>Saint Joseph's College</b>, <i>Rensselaer, IN, USA</i></h3>
@@ -49,7 +77,7 @@ const About = (props) => (
                     <h5>2017-Present</h5>
                 </div>
             </section>
-            <section id="three">
+            <section id="four">
                 <div className="inner">
                     <header className="major">
                         <h2>Skills</h2>
@@ -66,6 +94,16 @@ const About = (props) => (
                       <li>Driver's Licence B category (active driver)</li>
                     </ul>
                 </div>
+            </section>
+            <section id="five" className="tiles">
+                <article style={{backgroundImage: `url(${oscon})`, width:`100%`}}>
+                    <header className="major">
+                        <h3>Speaker</h3>
+                        <p>I spoke multiple times at the conventions, find out more about it.</p>
+                    </header>
+                    <Link to="/speaker" className="link primary"></Link>
+                </article>
+
             </section>
             {/*<section id="four" className="spotlights">
                 <section>

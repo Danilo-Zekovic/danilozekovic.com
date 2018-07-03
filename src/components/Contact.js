@@ -36,7 +36,7 @@ const Contact = (props) => (
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
                         <span>RS: (+381) 64-234-7616</span><br/>
-                        <span>Note: this phone number is a Serbian area number. So if you want to avoid international phone call charges you can use that number to find me on Viber or WhatsApp.</span>
+                        <span>Note: this phone number is a Serbian area number. So if you want to avoid international phone call charges you can use that number to find me on <a href="https://www.viber.com/" target="_blank">Viber</a> or <a href="https://www.whatsapp.com/" target="_blank">WhatsApp</a>.</span>
                     </div>
                 </section>
                 <section>
