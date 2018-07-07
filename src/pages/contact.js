@@ -17,7 +17,7 @@ const Contact = (props) => (
 
         <BannerPage
           title="Contact"
-          description="Reach out to me if you have any ideas, questions or sugestions."
+          description="Reach out to me if you have any ideas, questions or suggestions."
           />
 
         <div id="main">

@@ -25,7 +25,7 @@ const Speaker = (props) => (
                     <header className="major">
                         <h2>How It All Started</h2>
                     </header>
-                    <p>After my first visit and presentation at the OSCON in 2016, I became addicted to conventions. All the people I met, sessions I attended, and all the knowlege I got made me feel amazing. And since then I wish to return every year. Bellow you will find three of my visits and presentations at Open Source Convention (OSCON). </p>
+                    <p>After my first visit and presentation at the OSCON in 2016, I became addicted to conventions. All the people I met, sessions I attended, and all the knowledge I got made me feel amazing. And since then I wish to return every year. Bellow you will find three of my visits and presentations at Open Source Convention (OSCON). </p>
                 </div>
             </section>
             <section id="two" className="spotlights">

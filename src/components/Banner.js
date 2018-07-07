@@ -7,8 +7,8 @@ const Banner = (props) => (
                 <h1>Hi, my name is Danilo Zeković</h1>
             </header>
             <div className="content">
-                <p>I am a fullstack web developer<br />
-                and an open source entusiast.</p>
+                <p>I am a full-stack web developer<br />
+                and an open source enthusiast.</p>
             </div>
         </div>
     </section>
