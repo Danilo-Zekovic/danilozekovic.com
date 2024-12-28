@@ -1,30 +1,40 @@
-# portfolio
-My personal portfolio website   
+# Welcome to Remix!
 
-Thanks to HTML5up and CodeBushi for providing the template that is used for design of this web page.   
+- 📖 [Remix docs](https://remix.run/docs)
 
-To run the website   
-For development mode:    
-```   
-gatsby develop    
-```   
-For production:    
-```   
-gatsby build   
-gatsby serve    
-```     
+## Development
 
+Run the dev server:
 
-# gatsby-starter-forty
-Gatsby starter based on the Forty site template, designed by [HTML5 UP](https://html5up.net/forty). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+```shellscript
+npm run dev
+```
 
-## Preview
+## Deployment
 
-http://gatsby-forty.surge.sh/
+First, build your app for production:
 
-## Installation
+```sh
+npm run build
+```
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-forty https://github.com/ChangoMan/gatsby-starter-forty`
+Then run the app in production mode:
 
-Run `gatsby develop` in the terminal to start.
+```sh
+npm start
+```
+
+Now you'll need to pick a host to deploy it to.
+
+### DIY
+
+If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+
+Make sure to deploy the output of `npm run build`
+
+- `build/server`
+- `build/client`
+
+## Styling
+
+This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
