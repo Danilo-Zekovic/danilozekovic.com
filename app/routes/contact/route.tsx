@@ -1,8 +1,19 @@
+import { MetaFunction } from '@remix-run/node'
+
+export const meta: MetaFunction = () => {
+  return [
+    { title: 'Contact | Danilo Zeković' },
+    {
+      name: 'description',
+      content: `Get in touch! I'd love to hear from you. Whether you have a project inquiry, a question, or just want to say hello, feel free to contact me.`,
+    },
+  ]
+}
+
 const Contact = () => {
   return (
     <div className="container mx-auto flex items-center justify-between px-4 py-3">
-      Contact
-      <div className="flex flex-wrap w-120 ">
+      <div className="flex flex-wrap w-100">
         <div className="h-20 w-40 bg-background">background</div>
         <div className="h-20 w-40 bg-foreground">foreground</div>
         <div className="h-20 w-40 bg-card">card</div>

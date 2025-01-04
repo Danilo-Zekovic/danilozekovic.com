@@ -13,6 +13,7 @@ import NavigationBar from '@/components/NavigationBar'
 import { PreventFlashOnWrongTheme, ThemeProvider, useTheme } from 'remix-themes'
 import clsx from 'clsx'
 import { themeSessionResolver } from './session.server'
+import Footer from '@/components/Footer'
 
 export const links: LinksFunction = () => [
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -47,9 +48,10 @@ function Template({ children }: { children: React.ReactNode }) {
         <PreventFlashOnWrongTheme ssrTheme={Boolean(data.theme)} />
         <Links />
       </head>
-      <body>
+      <body className="flex flex-col min-h-screen">
         <NavigationBar />
-        <main>{children}</main>
+        <main className="flex-grow">{children}</main>
+        <Footer />
         <ScrollRestoration />
         <Scripts />
       </body>

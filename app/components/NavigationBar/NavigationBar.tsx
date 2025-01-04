@@ -39,7 +39,7 @@ export default function Navbar() {
             <NavigationMenuList>
               {navItems.map((item) => (
                 <NavigationMenuItem key={item.href}>
-                  <Link to={item.href}>
+                  <Link to={item.href} prefetch="intent">
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle({
                         active: pathname === item.href,
