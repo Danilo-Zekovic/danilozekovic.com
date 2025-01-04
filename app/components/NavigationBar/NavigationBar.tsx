@@ -1,10 +1,20 @@
-'use client'
-
-import { cn } from '~/lib/utils'
-// import { Button } from '@/components/ui/button'
-// import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
-// import { Menu } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetTrigger,
+} from '@/components/ui/sheet'
+import { Menu } from 'lucide-react'
 import { Link, useLocation } from '@remix-run/react'
+import ThemeToggle from '@/components/ThemeToggle'
+import {
+  NavigationMenu,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  navigationMenuTriggerStyle,
+} from '@/components/ui/navigation-menu'
 
 const navItems = [
   { name: 'Home', href: '/' },
@@ -18,29 +28,33 @@ export default function Navbar() {
 
   return (
     <nav className="border-b">
-      <div className="container mx-auto flex items-center justify-between px-4 py-3">
-        <div className="flex items-center space-x-4">
-          <Link to="/" className="text-xl font-bold">
+      <div className="container mx-auto flex items-center  px-4 py-3">
+        <div className="flex items-center space-x-4 mr-auto">
+          <Link to="/" className="text-xl font-bold text-primary">
             Danilo Zeković
           </Link>
         </div>
         <div className="hidden md:flex items-center space-x-4">
-          {navItems.map((item) => (
-            <Link
-              key={item.href}
-              to={item.href}
-              className={cn(
-                'text-sm font-medium transition-colors hover:text-primary',
-                pathname === item.href
-                  ? 'text-primary'
-                  : 'text-muted-foreground',
-              )}
-            >
-              {item.name}
-            </Link>
-          ))}
+          <NavigationMenu>
+            <NavigationMenuList>
+              {navItems.map((item) => (
+                <NavigationMenuItem key={item.href}>
+                  <Link to={item.href}>
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle({
+                        active: pathname === item.href,
+                      })}
+                    >
+                      {item.name}
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+              ))}
+            </NavigationMenuList>
+          </NavigationMenu>
+          <ThemeToggle />
         </div>
-        {/* <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4">
           <Sheet>
             <SheetTrigger asChild className="md:hidden">
               <Button variant="outline" size="icon">
@@ -49,25 +63,31 @@ export default function Navbar() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right">
-              <div className="flex flex-col space-y-4 mt-4">
-                {navItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    to={item.href}
-                    className={cn(
-                      'text-sm font-medium transition-colors hover:text-primary',
-                      pathname === item.href
-                        ? 'text-primary'
-                        : 'text-muted-foreground',
-                    )}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
+              <div className="flex flex-col items-center space-y-4 mt-4">
+                <NavigationMenu>
+                  <NavigationMenuList className="flex-col justify-center">
+                    {navItems.map((item) => (
+                      <NavigationMenuItem key={item.href}>
+                        <SheetClose asChild>
+                          <Link to={item.href}>
+                            <NavigationMenuLink
+                              className={navigationMenuTriggerStyle({
+                                active: pathname === item.href,
+                              })}
+                            >
+                              {item.name}
+                            </NavigationMenuLink>
+                          </Link>
+                        </SheetClose>
+                      </NavigationMenuItem>
+                    ))}
+                  </NavigationMenuList>
+                </NavigationMenu>
+                <ThemeToggle />
               </div>
             </SheetContent>
           </Sheet>
-        </div> */}
+        </div>
       </div>
     </nav>
   )
