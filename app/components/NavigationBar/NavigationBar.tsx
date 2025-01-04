@@ -39,15 +39,17 @@ export default function Navbar() {
             <NavigationMenuList>
               {navItems.map((item) => (
                 <NavigationMenuItem key={item.href}>
-                  <Link to={item.href} prefetch="intent">
-                    <NavigationMenuLink
-                      className={navigationMenuTriggerStyle({
-                        active: pathname === item.href,
-                      })}
-                    >
+                  <NavigationMenuLink
+                    className={navigationMenuTriggerStyle({
+                      active: pathname === item.href,
+                    })}
+                    asChild
+                    active={pathname === item.href}
+                  >
+                    <Link to={item.href} prefetch="intent">
                       {item.name}
-                    </NavigationMenuLink>
-                  </Link>
+                    </Link>
+                  </NavigationMenuLink>
                 </NavigationMenuItem>
               ))}
             </NavigationMenuList>
