@@ -1,4 +1,6 @@
 import { MetaFunction } from '@remix-run/node'
+import { Linkedin, Mail } from 'lucide-react'
+import { Facebook, GitHub, SocialMedia, X } from '~/components/social-media'
 
 export const meta: MetaFunction = () => {
   return [
@@ -12,55 +14,85 @@ export const meta: MetaFunction = () => {
 
 const Contact = () => {
   return (
-    <div className="container mx-auto flex items-center justify-between px-4 py-3">
-      <div className="flex flex-wrap w-100">
-        <div className="h-20 w-40 bg-background">background</div>
-        <div className="h-20 w-40 bg-foreground">foreground</div>
-        <div className="h-20 w-40 bg-card">card</div>
-        <div className="h-20 w-40 bg-card-foreground">card-foreground</div>
-        <div className="h-20 w-40 bg-popover">popover</div>
-        <div className="h-20 w-40 bg-popover-foreground">
-          popover-foreground
+    <div className="container mx-auto flex flex-col items-start justify-between px-4 py-3">
+      <section>
+        <h1>Contact</h1>
+        <p>
+          Thanks for visiting my site. There are few ways to reach out to me:
+        </p>
+      </section>
+      <section className="mt-6">
+        <h2 className="flex items-center gap-2">
+          Send me an email <Mail className="size-8" />
+        </h2>
+        <p>
+          If you want to say &quot;hi&quot;, or talk, or elaborate on any of
+          your ideas, feel free to reach me at{' '}
+          <a
+            href={`mailto:${SocialMedia.Email}`}
+            title="eMail"
+            className="font-bold text-chart-3 hover:text-chart-2 underline"
+          >
+            danilozeka93@gmail.com
+          </a>
+        </p>
+      </section>
+      <section className="mt-6">
+        <h2>Follow me or chat with me on social media</h2>
+        <p>
+          You can follow me on social media as well where I occasionally post
+          some work and life related info:
+        </p>
+        <div className="flex justify-around mt-6">
+          <a
+            href={SocialMedia.X}
+            target="_blank"
+            rel="noopener noreferrer"
+            title="X"
+            className="flex flex-col items-center text-chart-3 hover:text-chart-2 underline"
+          >
+            <X width={'24px'} height={'100%'} />
+            <span>X</span>
+          </a>
+          <a
+            href={SocialMedia.LinkedIn}
+            target="_blank"
+            rel="noopener noreferrer"
+            title="LinkedIn"
+            className="flex flex-col items-center text-chart-3 hover:text-chart-2 underline"
+          >
+            <Linkedin />
+            <span>LinkedIn</span>
+          </a>
+          <a
+            href={SocialMedia.Facebook}
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Facebook"
+            className="flex flex-col items-center text-chart-3 hover:text-chart-2 underline"
+          >
+            <Facebook width={'24px'} height={'100%'} />
+            <span>Facebook</span>
+          </a>
         </div>
-        <div className="h-20 w-40 bg-primary">primary</div>
-        <div className="h-20 w-40 bg-primary-foreground">
-          primary-foreground
-        </div>
-        <div className="h-20 w-40 bg-secondary">secondary</div>
-        <div className="h-20 w-40 bg-secondary-foreground">
-          secondary-foreground
-        </div>
-        <div className="h-20 w-40 bg-muted">muted</div>
-        <div className="h-20 w-40 bg-muted-foreground">muted-foreground</div>
-        <div className="h-20 w-40 bg-accent">accent</div>
-        <div className="h-20 w-40 bg-accent-foreground">accent-foreground</div>
-        <div className="h-20 w-40 bg-destructive">destructive</div>
-        <div className="h-20 w-40 bg-destructive-foreground">
-          destructive-foreground
-        </div>
-        <div className="h-20 w-40 bg-border">border</div>
-        <div className="h-20 w-40 bg-input">input</div>
-        <div className="h-20 w-40 bg-ring">ring</div>
-        <div className="h-20 w-40 bg-chart-1">chart-1</div>
-        <div className="h-20 w-40 bg-chart-2">chart-2</div>
-        <div className="h-20 w-40 bg-chart-3">chart-3</div>
-        <div className="h-20 w-40 bg-chart-4">chart-4</div>
-        <div className="h-20 w-40 bg-chart-5">chart-5</div>
-        <div className="h-20 w-40 bg-sidebar-background">
-          sidebar-background
-        </div>
-        <div className="h-20 w-40 bg-sidebar-foreground">
-          sidebar-foreground
-        </div>
-        <div className="h-20 w-40 bg-sidebar-primary">sidebar-primary</div>
-        <div className="h-20 w-40 bg-sidebar-primary-foreground">
-          sidebar-primary-foreground
-        </div>
-        <div className="h-20 w-40 bg-sidebar-accent"></div>
-        <div className="h-20 w-40 bg-sidebar-accent-foreground"></div>
-        <div className="h-20 w-40 bg-sidebar-border">sidebar-border</div>
-        <div className="h-20 w-40 bg-sidebar-ring">sidebar-ring</div>
-      </div>
+      </section>
+      <section className="mt-6 mb-14">
+        <h2 className="flex items-center gap-2">
+          Checkout my GitHub profile <GitHub className="size-8" />
+        </h2>
+        <p>
+          Due to my work obligations I am not as active as I used to be. But if
+          you want to check out my experiments, personal projects or occasional
+          open source work feel free to visit my{' '}
+          <a
+            href={`mailto:${SocialMedia.GitHub}`}
+            title="eMail"
+            className="font-bold text-chart-3 hover:text-chart-2 underline"
+          >
+            GitHub profile Danilo-Zekovic
+          </a>
+        </p>
+      </section>
     </div>
   )
 }
