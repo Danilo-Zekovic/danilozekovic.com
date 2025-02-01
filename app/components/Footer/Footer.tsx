@@ -5,7 +5,7 @@ import { Facebook, GitHub, SocialMedia, X } from '@/components/social-media'
 export default function Footer() {
   return (
     <footer className="bg-ring text-white py-4">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center max-w-[800px]">
         <p>Copyright &copy; {new Date().getFullYear()} Danilo Zeković</p>
 
         <div className="flex justify-center gap-2 mt-2">

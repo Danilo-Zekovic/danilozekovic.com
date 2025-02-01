@@ -1,5 +1,6 @@
 import { MetaFunction } from '@remix-run/node'
 import { Linkedin, Mail } from 'lucide-react'
+import Page from '~/components/Page'
 import { Facebook, GitHub, SocialMedia, X } from '~/components/social-media'
 
 export const meta: MetaFunction = () => {
@@ -14,7 +15,7 @@ export const meta: MetaFunction = () => {
 
 const Contact = () => {
   return (
-    <div className="container mx-auto flex flex-col items-start justify-between px-4 py-3">
+    <Page>
       <section>
         <h1>Contact</h1>
         <p>
@@ -76,7 +77,7 @@ const Contact = () => {
           </a>
         </div>
       </section>
-      <section className="mt-6 mb-14">
+      <section className="mt-6">
         <h2 className="flex items-center gap-2">
           Checkout my GitHub profile <GitHub className="size-8" />
         </h2>
@@ -93,7 +94,7 @@ const Contact = () => {
           </a>
         </p>
       </section>
-    </div>
+    </Page>
   )
 }
 

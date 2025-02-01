@@ -28,7 +28,7 @@ export default function Navbar() {
 
   return (
     <nav className="border-b">
-      <div className="container mx-auto flex items-center  px-4 py-3">
+      <div className="container mx-auto flex items-center  px-4 py-3 max-w-[800px]">
         <div className="flex items-center space-x-4 mr-auto">
           <Link to="/" className="text-xl font-bold text-primary">
             Danilo Zeković

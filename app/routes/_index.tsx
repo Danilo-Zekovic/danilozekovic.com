@@ -1,4 +1,5 @@
 import type { MetaFunction } from '@remix-run/node'
+import Page from '~/components/Page'
 
 export const meta: MetaFunction = () => {
   return [
@@ -13,7 +14,7 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="container mx-auto flex items-center justify-between px-4 py-3">
+    <Page>
       Home
       <div className="flex flex-wrap w-100 text-red-700">
         <div className="h-20 w-40 bg-background">background</div>
@@ -63,6 +64,6 @@ export default function Index() {
         <div className="h-20 w-40 bg-sidebar-border">sidebar-border</div>
         <div className="h-20 w-40 bg-sidebar-ring">sidebar-ring</div>
       </div>
-    </div>
+    </Page>
   )
 }
