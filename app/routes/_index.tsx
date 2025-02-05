@@ -1,5 +1,9 @@
 import type { MetaFunction } from '@remix-run/node'
-import Page from '~/components/Page'
+import { Link } from '@remix-run/react'
+
+import { Button } from '~/components/ui/button'
+
+import profile from '~/images/profile.jpg'
 
 export const meta: MetaFunction = () => {
   return [
@@ -14,9 +18,38 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <Page>
-      Home
-      <div className="flex flex-wrap w-100 text-red-700">
+    <>
+      <section className="flex flex-col md:flex-row items-center justify-center min-h-[calc(100vh-4rem)] px-6 md:px-12">
+        <div className="text-center md:text-left max-w-lg">
+          <h1 className="text-4xl">Hi, I&apos;m Danilo 👋</h1>
+          <p className="mt-4 text-lg ">
+            I&apos;m a Software Engineer passionate about building clean and
+            modern web apps.
+          </p>
+          <div className="mt-6">
+            <Button size={'lg'} className="px-6 py-3" asChild>
+              <Link to="/about">Learn More</Link>
+            </Button>
+            <Button
+              size={'lg'}
+              variant={'outline'}
+              className="ml-4 px-6 py-3"
+              asChild
+            >
+              <Link to="/contact">Contact Me</Link>
+            </Button>
+          </div>
+        </div>
+        <div className="mt-8 md:mt-0 md:ml-12 w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden">
+          <img
+            src={profile}
+            alt="Profile"
+            className="rounded-full object-cover"
+            style={{ objectPosition: 'center -50px' }}
+          />
+        </div>
+      </section>
+      {/* <div className="flex flex-wrap w-100 text-red-700">
         <div className="h-20 w-40 bg-background">background</div>
         <div className="h-20 w-40 bg-foreground">foreground</div>
         <div className="h-20 w-40 bg-card">card</div>
@@ -63,7 +96,7 @@ export default function Index() {
         <div className="h-20 w-40 bg-sidebar-accent-foreground"></div>
         <div className="h-20 w-40 bg-sidebar-border">sidebar-border</div>
         <div className="h-20 w-40 bg-sidebar-ring">sidebar-ring</div>
-      </div>
-    </Page>
+      </div> */}
+    </>
   )
 }

@@ -92,12 +92,12 @@ const About = () => {
           </TabsContent>
         </Tabs>
       </section>
-      <section className="mt-6 flex justify-center w-full">
+      <section className="mt-24 flex justify-center w-full">
         <div className="w-48 h-48 md:w-80 md:h-80 rounded-full overflow-hidden">
           <img
             alt="Danilo Zekovic profile"
             src={profile}
-            className="rounded-full object-cover object-top"
+            className="rounded-full object-cover"
             style={{ objectPosition: 'center -40px' }}
           />
         </div>
