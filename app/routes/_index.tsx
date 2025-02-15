@@ -3,7 +3,7 @@ import { Link } from '@remix-run/react'
 
 import { Button } from '~/components/ui/button'
 
-import profile from '~/images/profile.jpg'
+import profile from '~/images/profile_small.webp'
 
 export const meta: MetaFunction = () => {
   return [
@@ -27,12 +27,12 @@ export default function Index() {
             modern web apps.
           </p>
           <div className="mt-6">
-            <Button size={'lg'} className="px-6 py-3" asChild>
-              <Link to="/about">Learn More</Link>
+            <Button size="lg" className="px-6 py-3" asChild>
+              <Link to="/about">Learn More About Me</Link>
             </Button>
             <Button
-              size={'lg'}
-              variant={'outline'}
+              size="lg"
+              variant="outline"
               className="ml-4 px-6 py-3"
               asChild
             >

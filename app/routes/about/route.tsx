@@ -6,7 +6,7 @@ import Speaker from './about.speaker'
 import Hobbies from './about.hobbies'
 import Experience from './about.experience'
 
-import profile from '~/images/portrait.jpeg'
+import profile from '~/images/portrait.webp'
 
 export const meta: MetaFunction = () => {
   return [
