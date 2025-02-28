@@ -1,6 +1,6 @@
 import { Linkedin, Mail } from 'lucide-react'
 
-import { Facebook, GitHub, SocialMedia, X } from '@/components/social-media'
+import { GitHub, SocialMedia, X } from '@/components/social-media'
 
 export default function Footer() {
   return (
@@ -43,7 +43,7 @@ export default function Footer() {
           >
             <Linkedin />
           </a>
-          <a
+          {/* <a
             href={SocialMedia.Facebook}
             target="_blank"
             rel="noopener noreferrer"
@@ -51,7 +51,7 @@ export default function Footer() {
             className="hover:text-chart-2"
           >
             <Facebook width={'24px'} height={'100%'} />
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>

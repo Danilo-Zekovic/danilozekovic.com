@@ -1,7 +1,7 @@
 import { MetaFunction } from '@remix-run/node'
-import { Linkedin, Mail } from 'lucide-react'
+import { Linkedin, Mail, Users } from 'lucide-react'
 import Page from '~/components/Page'
-import { Facebook, GitHub, SocialMedia, X } from '~/components/social-media'
+import { GitHub, SocialMedia, X } from '~/components/social-media'
 
 export const meta: MetaFunction = () => {
   return [
@@ -39,7 +39,9 @@ const Contact = () => {
         </p>
       </section>
       <section className="mt-6">
-        <h2>Follow me or chat with me on social media</h2>
+        <h2 className="flex items-center gap-2">
+          Follow me or chat with me on social media <Users className="size-8" />
+        </h2>
         <p>
           You can follow me on social media as well where I occasionally post
           some work and life related info:
@@ -65,7 +67,7 @@ const Contact = () => {
             <Linkedin />
             <span>LinkedIn</span>
           </a>
-          <a
+          {/* <a
             href={SocialMedia.Facebook}
             target="_blank"
             rel="noopener noreferrer"
@@ -74,7 +76,7 @@ const Contact = () => {
           >
             <Facebook width={'24px'} height={'100%'} />
             <span>Facebook</span>
-          </a>
+          </a> */}
         </div>
       </section>
       <section className="mt-6">
@@ -86,8 +88,10 @@ const Contact = () => {
           you want to check out my experiments, personal projects or occasional
           open source work feel free to visit my{' '}
           <a
-            href={`mailto:${SocialMedia.GitHub}`}
-            title="eMail"
+            href={SocialMedia.GitHub}
+            target="_blank"
+            rel="noopener noreferrer"
+            title="GitHub"
             className="font-bold text-chart-3 hover:text-chart-2 underline"
           >
             GitHub profile Danilo-Zekovic
