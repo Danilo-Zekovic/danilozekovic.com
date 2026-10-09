@@ -6,7 +6,7 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet'
 import { Menu } from 'lucide-react'
-import { Link, useLocation } from '@remix-run/react'
+import { Link, useLocation } from '@tanstack/react-router'
 import ThemeToggle from '@/components/ThemeToggle'
 import {
   NavigationMenu,
@@ -46,7 +46,7 @@ export default function Navbar() {
                     asChild
                     active={pathname === item.href}
                   >
-                    <Link to={item.href} prefetch="intent">
+                    <Link to={item.href} preload="intent">
                       {item.name}
                     </Link>
                   </NavigationMenuLink>

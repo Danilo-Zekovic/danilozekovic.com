@@ -1,5 +1,5 @@
 import { Moon, Sun } from 'lucide-react'
-import { Theme, useTheme } from 'remix-themes'
+import { Theme, useTheme } from '~/lib/theme'
 
 import { Switch } from '@/components/ui/switch'
 
