@@ -1,19 +1,23 @@
-import { MetaFunction } from '@remix-run/node'
+import { createFileRoute } from '@tanstack/react-router'
 import { Linkedin, Mail, Users } from 'lucide-react'
 import Page from '~/components/Page'
 import { GitHub, SocialMedia, X } from '~/components/social-media'
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: 'Contact | Danilo Zeković' },
-    {
-      name: 'description',
-      content: `Get in touch! I'd love to hear from you. Whether you have a project inquiry, a question, or just want to say hello, feel free to contact me.`,
-    },
-  ]
-}
+export const Route = createFileRoute('/contact')({
+  head: () => ({
+    meta: [
+      { title: 'Contact | Danilo Zeković' },
+      {
+        name: 'description',
+        content:
+          "Get in touch! I'd love to hear from you. Whether you have a project inquiry, a question, or just want to say hello, feel free to contact me.",
+      },
+    ],
+  }),
+  component: Contact,
+})
 
-const Contact = () => {
+function Contact() {
   return (
     <Page>
       <section>
@@ -67,16 +71,6 @@ const Contact = () => {
             <Linkedin />
             <span>LinkedIn</span>
           </a>
-          {/* <a
-            href={SocialMedia.Facebook}
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Facebook"
-            className="flex flex-col items-center text-chart-3 hover:text-chart-2 underline"
-          >
-            <Facebook width={'24px'} height={'100%'} />
-            <span>Facebook</span>
-          </a> */}
         </div>
       </section>
       <section className="mt-6">

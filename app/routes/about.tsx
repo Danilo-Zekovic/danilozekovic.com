@@ -1,25 +1,27 @@
-import { MetaFunction } from '@remix-run/node'
+import { createFileRoute } from '@tanstack/react-router'
 import Page from '~/components/Page'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '~/components/ui/tabs'
-import Education from './about.education'
-import Speaker from './about.speaker'
-import Hobbies from './about.hobbies'
-import Experience from './about.experience'
-
+import Education from '~/components/about/about.education'
+import Speaker from '~/components/about/about.speaker'
+import Hobbies from '~/components/about/about.hobbies'
+import Experience from '~/components/about/about.experience'
 import profile from '~/images/portrait.webp'
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: 'About | Danilo Zeković' },
-    {
-      name: 'description',
-      content:
-        'A glimpse into my world. Learn about my expertise, my philosophy, and what makes me unique.',
-    },
-  ]
-}
+export const Route = createFileRoute('/about')({
+  head: () => ({
+    meta: [
+      { title: 'About | Danilo Zeković' },
+      {
+        name: 'description',
+        content:
+          'A glimpse into my world. Learn about my expertise, my philosophy, and what makes me unique.',
+      },
+    ],
+  }),
+  component: About,
+})
 
-const About = () => {
+function About() {
   return (
     <Page>
       <section>

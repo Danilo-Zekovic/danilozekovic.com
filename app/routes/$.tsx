@@ -1,18 +1,20 @@
-import type { MetaFunction } from '@remix-run/node'
-import { Link } from '@remix-run/react'
+import { createFileRoute, Link } from '@tanstack/react-router'
 import { Rabbit } from 'lucide-react'
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: '404 | Danilo Zeković' },
-    {
-      name: 'description',
-      content: '404 Page not found',
-    },
-  ]
-}
+export const Route = createFileRoute('/$')({
+  head: () => ({
+    meta: [
+      { title: '404 | Danilo Zeković' },
+      {
+        name: 'description',
+        content: '404 Page not found',
+      },
+    ],
+  }),
+  component: NotFound,
+})
 
-export default function Index() {
+function NotFound() {
   return (
     <div className="container mx-auto flex flex-col items-center justify-center px-4 py-3">
       <Rabbit className="size-40" />
@@ -29,3 +31,5 @@ export default function Index() {
     </div>
   )
 }
+
+export default NotFound
