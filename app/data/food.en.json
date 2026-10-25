@@ -1,0 +1,1320 @@
+{
+  "title": "Food",
+  "subtitle": "Elimination diet & ingredient reactions log",
+  "description": [
+    "As I have been experiencing stomach and digestive issues for some time now, my diet is quite strict and I am following an Elimination Diet.",
+    "Below you will find the list of ingredients that I have tested so far and how my body reacted to each. I have also documented the specific way I prepared each ingredient and what works best for me."
+  ],
+  "collaps": "Collapse",
+  "expand": "Expand",
+  "generalRules": [
+    {
+      "id": "minimal-seasoning",
+      "title": "Minimal Seasoning",
+      "description": "Only pure sea salt is used. No black or red pepper, paprika, onion/garlic powder, bouillon cubes, or processed spice blends."
+    },
+    {
+      "id": "gentle-heat",
+      "title": "Gentle Cooking Methods",
+      "description": "Boiling in water/broths, steaming, moderate oven-baking (often wrapped in baking paper to lock in moisture), and light stewing. Strictly no deep-frying or charred/burnt crusts."
+    },
+    {
+      "id": "peeled-deseeded",
+      "title": "Peeled & Deseeded",
+      "description": "Vegetables and fruits are thoroughly peeled and seeds removed to eliminate harsh insoluble fiber that irritates the gut lining."
+    },
+    {
+      "id": "healthy-fats",
+      "title": "Controlled Healthy Fats",
+      "description": "Only extra virgin olive oil (often drizzled over warm food after cooking) or ghee (clarified butter). Strictly no refined industrial seed oils (sunflower, corn, canola)."
+    },
+    {
+      "id": "freshness",
+      "title": "Freshness First",
+      "description": "Food is prepared fresh for each meal or frozen immediately after cooking. Extended refrigeration is avoided to keep histamine and bacterial levels minimal."
+    }
+  ],
+  "labels": {
+    "searchPlaceholder": "Search ingredients, preparations, or reactions...",
+    "allCategories": "All Categories",
+    "allStatuses": "All Statuses",
+    "allTechniques": "All Techniques",
+    "resetFilters": "Reset filters",
+    "statusLabels": {
+      "allowed": "Allowed",
+      "caution": "Caution",
+      "avoid": "Avoid",
+      "testing": "In Testing"
+    },
+    "techniqueLabels": {
+      "raw": "Raw",
+      "boiled": "Boiled",
+      "simmered": "Simmered",
+      "steamed": "Steamed",
+      "soup": "Soups & Broths",
+      "baked": "Oven-Baked",
+      "pan-cooked": "Pan-Seared",
+      "fried": "Deep Fried",
+      "stewed": "Stewed",
+      "grilled": "Grilled"
+    },
+    "generalRulesTitle": "General Preparation Principles",
+    "techniquesTitle": "Cooking Techniques",
+    "preparationLabel": "Preparation",
+    "reactionLabel": "Reaction",
+    "notesLabel": "Notes",
+    "noResults": "No ingredients found matching your search criteria.",
+    "resultsCount": "ingredients listed",
+    "viewCards": "Cards",
+    "viewTable": "Table",
+    "tableHeaders": {
+      "name": "Ingredient",
+      "category": "Category",
+      "status": "Status",
+      "reaction": "Reaction",
+      "preparation": "Preparation",
+      "notes": "Notes"
+    }
+  },
+  "categories": [
+    {
+      "id": "meat-poultry",
+      "name": "Meat & Poultry",
+      "items": [
+        {
+          "id": "chicken-breast",
+          "name": "Chicken Breast",
+          "status": "allowed",
+          "techniques": ["boiled", "soup", "baked"],
+          "keywords": ["chicken", "poultry", "piletina", "white meat"],
+          "reaction": "Well tolerated, no digestive distress, bloating, or heaviness.",
+          "preparation": "Boiled in soup or baked / pan-cooked with sea salt and olive oil.",
+          "notes": "Lean meat, easiest to digest and core staple protein."
+        },
+        {
+          "id": "chicken-leg-thigh",
+          "name": "Chicken Leg & Thigh",
+          "status": "allowed",
+          "techniques": ["baked", "soup", "boiled"],
+          "keywords": ["chicken", "poultry", "piletina", "drumstick", "thigh"],
+          "reaction": "Well tolerated with no negative reactions. Slightly richer than breast meat, but digests easily.",
+          "preparation": "Oven-baked or boiled in soup with salt.",
+          "notes": "Juicier dark meat, good natural source of iron."
+        },
+        {
+          "id": "chicken-wings",
+          "name": "Chicken Wings",
+          "status": "allowed",
+          "techniques": ["baked", "soup"],
+          "keywords": ["chicken", "poultry", "piletina", "wings"],
+          "reaction": "Tolerated without issues as long as they are prepared gently without heavy spices.",
+          "preparation": "Oven-baked with sea salt and a little olive oil until tender.",
+          "notes": "Prepared simply without breading, heavy glazes, or processed seasonings."
+        },
+        {
+          "id": "turkey-breast",
+          "name": "Turkey Breast",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["turkey", "poultry", "ćuretina", "curetina", "white meat"],
+          "reaction": "Extremely gentle on the stomach with zero symptoms or bloating.",
+          "preparation": "Boiled or gently baked (in foil or baking paper to retain moisture), with salt.",
+          "notes": "Great alternative to chicken breast; very clean lean meat."
+        },
+        {
+          "id": "turkey-leg-thigh",
+          "name": "Turkey Leg & Thigh",
+          "status": "allowed",
+          "techniques": ["baked", "stewed"],
+          "keywords": ["turkey", "poultry", "ćuretina", "curetina", "drumstick", "thigh"],
+          "reaction": "Well tolerated; satisfying and does not cause heaviness when well-cooked or roasted.",
+          "preparation": "Slow-braised or oven-roasted at moderate heat with sea salt.",
+          "notes": "Richer dark meat, nourishing and satisfying."
+        },
+        {
+          "id": "turkey-wings",
+          "name": "Turkey Wings",
+          "status": "allowed",
+          "techniques": ["soup", "baked"],
+          "keywords": ["turkey", "poultry", "ćuretina", "curetina", "wings"],
+          "reaction": "Soothing on the stomach, especially when slow-simmered in homemade broth.",
+          "preparation": "Simmered in soup or gently roasted in the oven with water and salt.",
+          "notes": "Great for making a gentle, collagen-rich homemade broth."
+        }
+      ]
+    },
+    {
+      "id": "fish-seafood",
+      "name": "Fish & Seafood",
+      "items": [
+        {
+          "id": "salmon",
+          "name": "Salmon",
+          "status": "allowed",
+          "techniques": ["baked", "steamed", "pan-cooked"],
+          "keywords": ["salmon", "fish", "losos", "riba"],
+          "reaction": "Very soothing, provides great energy without any stomach pressure.",
+          "preparation": "Pan-seared on low heat or baked in parchment paper.",
+          "notes": "Key source of healthy omega-3 fatty acids."
+        },
+        {
+          "id": "tuna",
+          "name": "Tuna Steak",
+          "status": "allowed",
+          "techniques": ["pan-cooked", "grilled", "baked"],
+          "keywords": ["tuna", "tuna steak", "tunjevina", "tuna odrezak", "fish", "riba"],
+          "reaction": "Firm and satisfying, light on digestion when not overcooked.",
+          "preparation": "Quickly seared in a pan or grilled.",
+          "notes": "Rich in lean protein and essential minerals."
+        },
+        {
+          "id": "canned-tuna-brine",
+          "name": "Canned Tuna in Brine",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["canned tuna", "tuna in brine", "tuna u sopstvenom soku", "tunjevina u vodi", "tunjevina", "fish", "riba"],
+          "reaction": "Convenient, light, and very easy on the stomach when drained.",
+          "preparation": "Drained well and mixed into salads, quinoa, or rice bowls.",
+          "notes": "Prefer tuna in brine (water) over oil for easier digestion."
+        },
+        {
+          "id": "white-fish",
+          "name": "White Fish (Hake / Cod)",
+          "status": "allowed",
+          "techniques": ["boiled", "soup", "baked", "steamed"],
+          "keywords": ["white fish", "hake", "cod", "oslic", "bakalar", "riba"],
+          "reaction": "Extremely light and easy to digest. No symptoms.",
+          "preparation": "Boiled in vegetable broth, baked, or air-fried with minimal oil.",
+          "notes": "The safest go-to meal when the stomach is sensitive."
+        },
+        {
+          "id": "sea-bass",
+          "name": "Sea Bass",
+          "status": "allowed",
+          "techniques": ["baked", "grilled", "steamed"],
+          "keywords": ["sea bass", "brancin", "fish", "morska riba", "riba"],
+          "reaction": "Delicate, tender, and effortlessly digestible.",
+          "preparation": "Whole baked with herbs or grilled as fillets.",
+          "notes": "Lean Mediterranean white fish with mild flavor."
+        },
+        {
+          "id": "trout",
+          "name": "Trout",
+          "status": "allowed",
+          "techniques": ["baked", "grilled", "pan-cooked"],
+          "keywords": ["trout", "pastrmka", "freshwater fish", "rečna riba", "riba"],
+          "reaction": "Gentle on the stomach and very nourishing.",
+          "preparation": "Pan-fried lightly or baked whole with lemon.",
+          "notes": "Great freshwater alternative rich in omega-3s."
+        },
+        {
+          "id": "sea-bream",
+          "name": "Sea Bream",
+          "status": "allowed",
+          "techniques": ["baked", "grilled", "steamed"],
+          "keywords": ["sea bream", "orada", "fish", "morska riba", "riba"],
+          "reaction": "Light and clean with zero heaviness.",
+          "preparation": "Baked in the oven or grilled whole.",
+          "notes": "Popular Mediterranean fish with sweet, white meat."
+        },
+        {
+          "id": "mackerel",
+          "name": "Mackerel",
+          "status": "testing",
+          "techniques": ["pan-cooked", "grilled"],
+          "keywords": ["mackerel", "skusa", "oily fish", "fish", "riba"],
+          "reaction": "Currently testing tolerance due to higher natural fat content.",
+          "preparation": "Grilled or pan-seared with lemon to cut through the richness.",
+          "notes": "Extremely rich in omega-3s, but its oily texture requires careful testing for digestion."
+        }
+      ]
+    },
+    {
+      "id": "grains-starches",
+      "name": "Grains & Starches",
+      "items": [
+        {
+          "id": "white-rice",
+          "name": "White Jasmine / Basmati Rice",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["rice", "white rice", "jasmine", "basmati", "pirinac"],
+          "reaction": "Completely safe. Excellent carb source with zero bloating.",
+          "preparation": "Well-rinsed, cooked until soft in salted water.",
+          "notes": "The foundation staple of my elimination diet."
+        },
+        {
+          "id": "potatoes",
+          "name": "Potatoes",
+          "status": "allowed",
+          "techniques": ["boiled", "baked", "soup"],
+          "keywords": ["potato", "potatoes", "mash", "krompir"],
+          "reaction": "Safe and nourishing, causes no digestive distress.",
+          "preparation": "Peeled and boiled until very tender, baked, or added to soups.",
+          "notes": "Peeled thoroughly; potato skins are avoided."
+        },
+        {
+          "id": "sweet-potatoes",
+          "name": "Sweet Potatoes",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["sweet potato", "sweet potatoes", "yam", "batat"],
+          "reaction": "Well tolerated, easily digested.",
+          "preparation": "Peeled, cubed, and boiled, baked, or added to soups.",
+          "notes": "Provides good fiber without irritating the stomach."
+        },
+        {
+          "id": "polenta",
+          "name": "Polenta",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["polenta", "cornmeal", "kukuruzna kaca", "palenta"],
+          "reaction": "Well tolerated, smooth on digestion.",
+          "preparation": "Cooked into a smooth porridge or baked.",
+          "notes": "Gluten-free and easy on the stomach."
+        },
+        {
+          "id": "millet",
+          "name": "Millet",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["millet", "proso", "hirse"],
+          "reaction": "Well tolerated, mild and easy to digest.",
+          "preparation": "Rinsed and cooked in water until fluffy, or baked in dishes.",
+          "notes": "Gluten-free ancient grain, excellent substitute for rice or couscous."
+        },
+        {
+          "id": "millet-flakes",
+          "name": "Millet Flakes",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["millet flakes", "proso pahuljice", "millet porridge"],
+          "reaction": "Easy on digestion, no adverse reactions.",
+          "preparation": "Cooked into a warm porridge with water.",
+          "notes": "Quick-cooking alternative to oat porridge."
+        },
+        {
+          "id": "rice-flakes",
+          "name": "Rice Flakes",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["rice flakes", "pirinac pahuljice", "rice porridge"],
+          "reaction": "Very gentle, no bloating or discomfort.",
+          "preparation": "Cooked into a simple porridge with water and a pinch of salt.",
+          "notes": "Among the gentlest breakfast options available."
+        },
+        {
+          "id": "gf-oats",
+          "name": "Gluten-Free Oats",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["oats", "oatmeal", "porridge", "ovas", "gluten free oats"],
+          "reaction": "Tolerated in moderate amounts.",
+          "preparation": "Cooked as oatmeal with water, or baked into snacks.",
+          "notes": "Ensure certified gluten-free."
+        },
+        {
+          "id": "rice-gritz",
+          "name": "Rice Grits",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["rice grits", "rice gritz", "pirinac griz", "rice semolina"],
+          "reaction": "Very well tolerated, light and easy on digestion.",
+          "preparation": "Baked or cooked into a thick porridge.",
+          "notes": "Gluten-free semolina-style grain."
+        },
+        {
+          "id": "wheat-gluten",
+          "name": "Wheat & Gluten Bread",
+          "status": "avoid",
+          "techniques": ["baked"],
+          "keywords": ["wheat", "gluten", "bread", "sourdough", "pasta", "psenica", "hleb"],
+          "reaction": "Severe bloating, brain fog, gas, and abdominal pain lasting 24-48 hours.",
+          "preparation": "Standard sourdough or white wheat bread.",
+          "notes": "Confirmed trigger food; strict avoidance."
+        }
+      ]
+    },
+    {
+      "id": "pasta-alternatives",
+      "name": "Pasta & Noodles",
+      "items": [
+        {
+          "id": "buckwheat-pasta",
+          "name": "Buckwheat Pasta",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["buckwheat pasta", "heljdina testenina", "gluten free pasta"],
+          "reaction": "Well tolerated, no bloating or heaviness.",
+          "preparation": "Cooked al dente in salted water, served with light olive oil.",
+          "notes": "Gluten-free pasta with an earthy flavour."
+        },
+        {
+          "id": "rice-pasta",
+          "name": "Rice Pasta",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["rice pasta", "pirinac testenina", "gluten free pasta"],
+          "reaction": "Easy on the stomach, no issues.",
+          "preparation": "Cooked in salted water and rinsed briefly.",
+          "notes": "Neutral taste, pairs well with any sauce."
+        },
+        {
+          "id": "rice-noodles",
+          "name": "Rice Noodles",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["rice noodles", "pirinac rezanci", "asian noodles"],
+          "reaction": "Very light, quick to cook, easy to digest.",
+          "preparation": "Soaked or briefly boiled per package instructions.",
+          "notes": "Great base for soups and stir-fry style dishes."
+        },
+        {
+          "id": "red-lentil-pasta",
+          "name": "Red Lentil Pasta",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["red lentil pasta", "leca testenina", "legume pasta", "gluten free pasta"],
+          "reaction": "Well tolerated in moderate portions.",
+          "preparation": "Cooked in salted water; do not overcook.",
+          "notes": "High in protein and fibre, rinse after cooking to reduce starch."
+        },
+        {
+          "id": "barilla-gluten-free-pasta",
+          "name": "Barilla Gluten-Free Pasta",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["barilla", "barilla pasta", "gluten free pasta", "corn rice pasta", "testenina bez glutena"],
+          "reaction": "Well tolerated, no bloating, cramps, or heaviness.",
+          "preparation": "Cooked al dente in salted water.",
+          "notes": "Corn and rice blend; holds texture well."
+        },
+        {
+          "id": "schar-gluten-free-pasta",
+          "name": "Schär Gluten-Free Pasta",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["schar", "schär", "schar pasta", "gluten free pasta", "testenina bez glutena"],
+          "reaction": "Well tolerated, easily digestible with no digestive issues.",
+          "preparation": "Cooked in salted water per package instructions.",
+          "notes": "Gluten-free pasta made from corn and rice flours."
+        }
+      ]
+    },
+    {
+      "id": "flours-baking",
+      "name": "Flours & Baking",
+      "items": [
+        {
+          "id": "rice-flour",
+          "name": "Rice Flour",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["rice flour", "pirinac brasno", "gluten free flour"],
+          "reaction": "Well tolerated, no reactions.",
+          "preparation": "Used in baked goods as a gluten-free base flour.",
+          "notes": "Versatile neutral-tasting gluten-free flour."
+        },
+        {
+          "id": "chickpea-flour",
+          "name": "Chickpea Flour",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["chickpea flour", "gram flour", "besan", "leblebija brasno", "gluten free flour"],
+          "reaction": "Well tolerated when baked.",
+          "preparation": "Used in baked goods, pancakes, and flatbreads.",
+          "notes": "High in protein; adds density to baked goods."
+        },
+        {
+          "id": "buckwheat-flour",
+          "name": "Buckwheat Flour",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["buckwheat flour", "heljdino brasno", "gluten free flour"],
+          "reaction": "No adverse reactions.",
+          "preparation": "Used in pancakes, baked goods, and breads.",
+          "notes": "Earthy flavour; usually blended with other GF flours."
+        },
+        {
+          "id": "millet-flour",
+          "name": "Millet Flour",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["millet flour", "proso brasno", "gluten free flour"],
+          "reaction": "Tolerated well.",
+          "preparation": "Used in baked goods, often mixed with other GF flours.",
+          "notes": "Light, mild flavour; good in muffins and flatbreads."
+        },
+        {
+          "id": "gf-oat-flour",
+          "name": "Gluten-Free Oat Flour",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["oat flour", "ovas brasno", "gluten free oat flour", "gluten free flour"],
+          "reaction": "Well tolerated in baked form.",
+          "preparation": "Used in baked goods like muffins, cookies, and pancakes.",
+          "notes": "Ensure certified gluten-free oat flour."
+        },
+        {
+          "id": "corn-flour",
+          "name": "Corn Flour",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["corn flour", "kukuruzno brasno", "cornmeal", "gluten free flour"],
+          "reaction": "No negative reactions.",
+          "preparation": "Used in baking for structure and texture.",
+          "notes": "Fine-milled; different from coarse cornmeal."
+        },
+        {
+          "id": "almond-flour",
+          "name": "Almond Flour",
+          "status": "allowed",
+          "techniques": ["baked", "raw"],
+          "keywords": ["almond flour", "bademovo brasno", "gluten free flour"],
+          "reaction": "Well tolerated, no reactions.",
+          "preparation": "Used raw in energy balls or baked into pastries.",
+          "notes": "High in healthy fats; keep portions moderate."
+        },
+        {
+          "id": "schar-mix-b",
+          "name": "Schär Mix B Flour",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["schar", "schär", "mix b", "gluten free flour blend", "schar mix"],
+          "reaction": "Well tolerated.",
+          "preparation": "Used as a 1:1 substitute for wheat flour in baked goods.",
+          "notes": "Commercial GF flour blend; reliable for bread and pastry."
+        },
+        {
+          "id": "schar-mix-c",
+          "name": "Schär Mix C Flour",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["schar", "schär", "mix c", "gluten free flour blend", "schar mix"],
+          "reaction": "Well tolerated.",
+          "preparation": "Best for cakes, biscuits, and pastry dough.",
+          "notes": "Finer blend than Mix B; excellent for delicate baked goods."
+        },
+        {
+          "id": "schar-farina",
+          "name": "Schär Farina Flour",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["schar", "schär", "farina", "gluten free flour blend", "schar mix"],
+          "reaction": "Well tolerated.",
+          "preparation": "Used in pasta dough, bread, and pastry.",
+          "notes": "Versatile everyday GF flour from Schär."
+        },
+        {
+          "id": "baking-powder",
+          "name": "Baking Powder",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["baking powder", "prasak za pecivo", "leavening agent"],
+          "reaction": "No adverse reactions.",
+          "preparation": "Used as a leavening agent in baked goods.",
+          "notes": "Check label for gluten-free certification."
+        },
+        {
+          "id": "psyllium-husk",
+          "name": "Psyllium Husk",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["psyllium", "psyllium husk", "psyllium husks", "psilijum", "baking binder", "soluble fiber"],
+          "reaction": "Well tolerated in baked goods; supports digestive regularity.",
+          "preparation": "Used in gluten-free baking as a binder and texture enhancer.",
+          "notes": "Essential binder for gluten-free breads and pastries; rich in soluble fiber."
+        }
+      ]
+    },
+    {
+      "id": "legumes",
+      "name": "Legumes",
+      "items": [
+        {
+          "id": "chickpea",
+          "name": "Chickpeas",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["chickpea", "chickpeas", "garbanzo", "leblebija", "slanutak"],
+          "reaction": "Well tolerated when properly cooked and not in excess.",
+          "preparation": "Soaked overnight and boiled until fully soft.",
+          "notes": "Rinse thoroughly after cooking to reduce gas-causing oligosaccharides."
+        },
+        {
+          "id": "red-lentil",
+          "name": "Red Lentils",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["red lentil", "red lentils", "crvena leca", "leca"],
+          "reaction": "Well tolerated, no significant bloating when cooked thoroughly.",
+          "preparation": "Simmered with water until completely soft; no soaking needed.",
+          "notes": "Split lentils cook quickly and lose their skins, making them easier to digest."
+        },
+        {
+          "id": "hummus",
+          "name": "Hummus",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["hummus", "humus", "chickpea dip", "chickpea spread", "leblebija namaz"],
+          "reaction": "Well tolerated in moderate portions.",
+          "preparation": "Blended cooked chickpeas, tahini, olive oil, and salt (without raw garlic).",
+          "notes": "Classic chickpea and tahini spread; best prepared fresh without raw garlic."
+        }
+      ]
+    },
+    {
+      "id": "nuts-seeds",
+      "name": "Nuts, Seeds & Butters",
+      "items": [
+        {
+          "id": "almonds",
+          "name": "Almonds",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["almond", "almonds", "badem", "bademi", "nuts"],
+          "reaction": "Well tolerated raw in moderate portions.",
+          "preparation": "Eaten raw as a snack.",
+          "notes": "Rich in vitamin E and healthy fats."
+        },
+        {
+          "id": "roasted-peanuts",
+          "name": "Roasted Peanuts",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["peanut", "peanuts", "roasted peanuts", "kikiriki", "peceni kikiriki"],
+          "reaction": "Well tolerated when plain roasted without additives.",
+          "preparation": "Dry-roasted with no added oil, salt, or seasoning.",
+          "notes": "Technically a legume; plain roasted is well tolerated."
+        },
+        {
+          "id": "cashews",
+          "name": "Cashews",
+          "status": "testing",
+          "techniques": ["raw"],
+          "keywords": ["cashew", "cashews", "indijski orah", "kasju"],
+          "reaction": "Currently testing — higher fat content requires careful portion monitoring.",
+          "preparation": "Eaten raw in small amounts.",
+          "notes": "Creamy texture; testing tolerance before adding regularly."
+        },
+        {
+          "id": "pistachios",
+          "name": "Pistachios",
+          "status": "allowed",
+          "techniques": ["baked", "raw"],
+          "keywords": ["pistachio", "pistachios", "pistaći", "pistaci", "nuts"],
+          "reaction": "Well tolerated in moderate portions.",
+          "preparation": "Eaten raw or lightly roasted without additives.",
+          "notes": "Rich in protein and minerals."
+        },
+        {
+          "id": "peanut-butter",
+          "name": "Peanut Butter (100% Pure)",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["peanut butter", "kikiriki puter", "nut butter", "kikiriki"],
+          "reaction": "Well tolerated when 100% pure with no added oils or sugar.",
+          "preparation": "Spread raw on rice cakes or stirred into porridge.",
+          "notes": "Only 100% peanuts — no palm oil, no added sugar."
+        },
+        {
+          "id": "almond-butter",
+          "name": "Almond Butter (100% Pure)",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["almond butter", "badem puter", "nut butter", "badem", "butter", "puter"],
+          "reaction": "Well tolerated in moderate amounts.",
+          "preparation": "Spread raw on rice cakes or used in smoothies.",
+          "notes": "100% almonds only; no added oils or sweeteners."
+        },
+        {
+          "id": "flax-seed",
+          "name": "Flax Seeds (Ground)",
+          "status": "allowed",
+          "techniques": ["raw", "boiled"],
+          "keywords": ["flax seed", "flaxseed", "lan", "laneno seme", "ground flax"],
+          "reaction": "Well tolerated, supports digestive regularity.",
+          "preparation": "Ground and added to porridge or stirred into cooked dishes.",
+          "notes": "Must be ground to unlock nutritional benefits; whole seeds pass undigested."
+        },
+        {
+          "id": "chia-seed",
+          "name": "Chia Seeds",
+          "status": "allowed",
+          "techniques": ["raw", "boiled"],
+          "keywords": ["chia", "chia seed", "chia seme", "seeds"],
+          "reaction": "Well tolerated raw and cooked.",
+          "preparation": "Soaked in water or plant milk to form a gel, or added to baked goods.",
+          "notes": "High in omega-3 and soluble fiber; always hydrate before consuming."
+        },
+        {
+          "id": "tahini",
+          "name": "Tahini",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["tahini", "tahin", "sesame paste", "sesame butter", "susam"],
+          "reaction": "Well tolerated in moderate amounts.",
+          "preparation": "Used raw as a spread, in dressings, or mixed into hummus.",
+          "notes": "100% sesame paste with no added salt, oil, or preservatives."
+        }
+      ]
+    },
+    {
+      "id": "vegetables",
+      "name": "Vegetables",
+      "items": [
+        {
+          "id": "carrots",
+          "name": "Carrots",
+          "status": "allowed",
+          "techniques": ["steamed", "boiled", "soup"],
+          "keywords": ["carrots", "carrot", "sargarepa"],
+          "reaction": "No issues at all when cooked.",
+          "preparation": "Boiled soft or steamed; never eaten raw.",
+          "notes": "Raw carrots are too rough on my digestion."
+        },
+        {
+          "id": "zucchini",
+          "name": "Zucchini",
+          "status": "allowed",
+          "techniques": ["stewed", "steamed"],
+          "keywords": ["zucchini", "courgette", "tikvice"],
+          "reaction": "Very gentle on the stomach lining, zero discomfort.",
+          "preparation": "Peeled and sautéed lightly in olive oil.",
+          "notes": "One of the best vegetables during recovery."
+        },
+        {
+          "id": "swiss-chard",
+          "name": "Swiss Chard",
+          "status": "allowed",
+          "techniques": ["boiled", "baked", "soup", "steamed"],
+          "keywords": ["swiss chard", "chard", "blitva", "leafy greens"],
+          "reaction": "Well tolerated when cooked.",
+          "preparation": "Blanched, baked, added to soups, or steamed.",
+          "notes": "Rich in minerals; cook thoroughly to soften fibre."
+        },
+        {
+          "id": "arugula",
+          "name": "Arugula (Rocket)",
+          "status": "allowed",
+          "techniques": ["raw", "boiled"],
+          "keywords": ["arugula", "rocket", "rucola", "rukola", "arugola", "leafy greens"],
+          "reaction": "Well tolerated cooked and raw in moderate amounts.",
+          "preparation": "Eaten raw in salads or briefly wilted/cooked.",
+          "notes": "Peppery flavour mellows when briefly cooked."
+        },
+        {
+          "id": "butternut-squash",
+          "name": "Butternut Squash",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["butternut squash", "squash", "bundeva", "muskatna tikva"],
+          "reaction": "Well tolerated, smooth on the stomach.",
+          "preparation": "Peeled, cubed, and baked or cooked in soups.",
+          "notes": "Sweet and creamy when baked; one of the easiest squashes to digest."
+        },
+        {
+          "id": "red-kuri-squash",
+          "name": "Red Kuri Squash",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["red kuri squash", "hokkaido", "squash", "bundeva", "crvena bundeva"],
+          "reaction": "Well tolerated, similar to butternut.",
+          "preparation": "Peeled and baked or cooked in soups.",
+          "notes": "Earthy, chestnut-like flavour. Skin is edible when baked."
+        },
+        {
+          "id": "beets",
+          "name": "Beets (Beetroot)",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["beets", "beetroot", "cvekla", "root vegetable", "bits"],
+          "reaction": "Well tolerated when thoroughly cooked or roasted; gentle on digestion.",
+          "preparation": "Boiled soft or oven-baked until tender; peeled after cooking.",
+          "notes": "Sweet and earthy root vegetable; cook thoroughly to soften fiber."
+        },
+        {
+          "id": "kale",
+          "name": "Kale",
+          "status": "testing",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["kale", "kelj", "leafy greens"],
+          "reaction": "Currently testing — rich in fibre and potentially strong on digestion.",
+          "preparation": "Cooked thoroughly; baked into chips or added to soups.",
+          "notes": "Massage or cook well to break down tough fibres."
+        },
+        {
+          "id": "collard-greens",
+          "name": "Collard Greens",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["collard greens", "collard", "zelje", "lisnato povrce"],
+          "reaction": "Well tolerated when cooked well.",
+          "preparation": "Cooked in water until tender, baked, or added to soups.",
+          "notes": "Similar to kale but milder; cook longer for better digestibility."
+        },
+        {
+          "id": "eggplant",
+          "name": "Eggplant",
+          "status": "avoid",
+          "techniques": ["baked"],
+          "keywords": ["eggplant", "aubergine", "plavi patlidan", "patlidzan"],
+          "reaction": "Not tolerated; causes digestive distress.",
+          "preparation": "Tested baked.",
+          "notes": "Nightshade vegetable; confirmed trigger."
+        },
+        {
+          "id": "tomato",
+          "name": "Tomato",
+          "status": "avoid",
+          "techniques": ["raw"],
+          "keywords": ["tomato", "tomatoes", "paradajz", "rajcica"],
+          "reaction": "Not tolerated raw; causes irritation and reflux.",
+          "preparation": "Tested raw.",
+          "notes": "Nightshade; high acidity triggers reflux. Avoid entirely."
+        },
+        {
+          "id": "spinach",
+          "name": "Cooked Spinach",
+          "status": "testing",
+          "techniques": ["boiled", "steamed"],
+          "keywords": ["spinach", "greens", "spanac"],
+          "reaction": "Small amounts are fine, but larger servings cause loose digestion.",
+          "preparation": "Blanched, water drained thoroughly.",
+          "notes": "Testing oxalates and portion threshold."
+        },
+        {
+          "id": "onion",
+          "name": "Onion",
+          "status": "caution",
+          "techniques": ["soup"],
+          "keywords": ["onion", "crni luk", "luk", "yellow onion", "red onion", "soup"],
+          "reaction": "Tolerated when used only for flavour in soups/broths; eating directly causes digestive issues.",
+          "preparation": "Cooked in soup to add flavour, then removed before eating.",
+          "notes": "Use it only to add flavour to soups, do not eat it directly."
+        },
+        {
+          "id": "garlic",
+          "name": "Garlic",
+          "status": "caution",
+          "techniques": ["soup"],
+          "keywords": ["garlic", "beli luk", "cesnjak", "češnjak", "soup"],
+          "reaction": "Tolerated when simmered whole in broth for flavour; eating directly causes irritation and bloating.",
+          "preparation": "Simmered whole in soups to add flavour, then removed before eating.",
+          "notes": "Use it only to add flavour to soups, do not eat it directly."
+        }
+      ]
+    },
+    {
+      "id": "mushrooms",
+      "name": "Mushrooms",
+      "items": [
+        {
+          "id": "shiitake-mushrooms",
+          "name": "Shiitake Mushrooms",
+          "status": "allowed",
+          "techniques": ["boiled", "baked", "soup", "pan-cooked"],
+          "keywords": ["shiitake", "shitake", "mushroom", "pecurka", "pecurke", "sitake"],
+          "reaction": "Well tolerated when cooked.",
+          "preparation": "Pan-seared, baked, or added to soups and broths.",
+          "notes": "Immune-boosting and deeply savoury; always cook, never eat raw."
+        },
+        {
+          "id": "oyster-mushrooms",
+          "name": "Oyster Mushrooms",
+          "status": "allowed",
+          "techniques": ["boiled", "baked", "soup", "pan-cooked"],
+          "keywords": ["oyster mushroom", "oyster mushrooms", "bukovaca", "mushroom", "pecurka"],
+          "reaction": "Well tolerated, light and easy to digest.",
+          "preparation": "Pan-seared, baked, or added to soups.",
+          "notes": "Delicate texture; cook on medium heat until golden."
+        }
+      ]
+    },
+    {
+      "id": "fruit",
+      "name": "Fruit",
+      "items": [
+        {
+          "id": "kiwi",
+          "name": "Kiwi",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["kiwi", "kivi", "fruit", "voce"],
+          "reaction": "Well tolerated raw; pleasant and refreshing.",
+          "preparation": "Peeled and eaten fresh raw.",
+          "notes": "Rich in vitamin C; remove skin fully before eating."
+        },
+        {
+          "id": "apples",
+          "name": "Apples",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["apple", "apples", "jabuka", "jabuke", "fruit", "voce"],
+          "reaction": "Sweet, soothing, and grounding, especially when baked or stewed.",
+          "preparation": "Eaten raw, baked whole with cinnamon, or simmered into compote.",
+          "notes": "Pectin in cooked apples is exceptionally soothing for the digestive tract."
+        },
+        {
+          "id": "pears",
+          "name": "Pears",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["pear", "pears", "kruska", "kruske", "fruit", "voce"],
+          "reaction": "Gentle on the stomach and deeply hydrating.",
+          "preparation": "Ripe raw slices, poached gently in water, or baked in the oven.",
+          "notes": "Choose sweet, ripe pears for optimal digestibility."
+        },
+        {
+          "id": "peaches",
+          "name": "Peaches",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["peach", "peaches", "breskva", "breskve", "fruit", "voce"],
+          "reaction": "Cooling, refreshing, and light on digestion.",
+          "preparation": "Fresh raw, lightly stewed, or baked halves.",
+          "notes": "Best enjoyed fully ripe and peeled if skin causes irritation."
+        },
+        {
+          "id": "nectarines",
+          "name": "Nectarines",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["nectarine", "nectarines", "nektarina", "nektarine", "fruit", "voce"],
+          "reaction": "Juicy and sweet with a pleasant cooling effect.",
+          "preparation": "Eaten fresh raw or stewed into a warm fruit bowl.",
+          "notes": "Similar profile to peaches, very pleasant when fully ripe."
+        },
+        {
+          "id": "apricots",
+          "name": "Apricots",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["apricot", "apricots", "kajsija", "kajsije", "fruit", "voce"],
+          "reaction": "Nourishing and easily tolerated when soft and ripe.",
+          "preparation": "Fresh, gently simmered, or baked into warm desserts.",
+          "notes": "Rich in beta-carotene and gentle fiber."
+        },
+        {
+          "id": "sweet-cherries",
+          "name": "Sweet Cherries",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["sweet cherry", "sweet cherries", "slatka tresnja", "tresnje", "fruit", "voce"],
+          "reaction": "Deeply grounding and cooling without digestive heaviness.",
+          "preparation": "Fresh raw or gently warm-simmered.",
+          "notes": "Excellent cooling fruit option during warm weather."
+        },
+        {
+          "id": "sour-cherries",
+          "name": "Sour Cherries",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["sour cherry", "sour cherries", "visnja", "visnje", "cherries", "fruit", "voce"],
+          "reaction": "Refreshing and mild, best tolerated when cooked or baked.",
+          "preparation": "Simmered into compote, baked, or eaten ripe.",
+          "notes": "Higher acidity than sweet cherries; cooking softens the bite."
+        },
+        {
+          "id": "melon",
+          "name": "Melon (Cantaloupe / Honeydew)",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["melon", "cantaloupe", "honeydew", "dinja", "fruit", "voce"],
+          "reaction": "Extremely hydrating, light, and fast to digest.",
+          "preparation": "Eaten fresh and raw, preferably on an empty stomach.",
+          "notes": "Best eaten alone or before other meals to ensure smooth digestion."
+        },
+        {
+          "id": "blueberries",
+          "name": "Blueberries",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["blueberry", "blueberries", "borovnica", "borovnice", "berries", "fruit", "voce"],
+          "reaction": "Light, highly soothing, and packed with antioxidants.",
+          "preparation": "Fresh raw, stirred into warm porridge, or baked.",
+          "notes": "One of the most digestive-friendly berry varieties."
+        },
+        {
+          "id": "bananas",
+          "name": "Bananas",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["banana", "bananas", "banana", "banane", "fruit", "voce"],
+          "reaction": "Sustained energy, smooth on the stomach lining.",
+          "preparation": "Eaten raw when ripe with spotty skin, or baked.",
+          "notes": "Ensure bananas are fully ripe to avoid digestive starch resistance."
+        },
+        {
+          "id": "avocado",
+          "name": "Avocado",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["avocado", "avokado", "fruit", "voce"],
+          "reaction": "Creamy, filling, and very gentle on gut mucosa.",
+          "preparation": "Fresh raw sliced, mashed into spreads, or added to bowls.",
+          "notes": "Provides healthy monounsaturated fats that support nutrient absorption."
+        },
+        {
+          "id": "figs",
+          "name": "Figs",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["fig", "figs", "smokva", "smokve", "fruit", "voce"],
+          "reaction": "Naturally sweet, satisfying, and digestive-promoting.",
+          "preparation": "Fresh raw, gently poached, or baked.",
+          "notes": "Rich in natural soluble fiber and minerals."
+        },
+        {
+          "id": "strawberries",
+          "name": "Strawberries",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["strawberry", "strawberries", "jagoda", "jagode", "berries", "fruit", "voce"],
+          "reaction": "Light, aromatic, and easy to digest when sweet and ripe.",
+          "preparation": "Fresh raw or gently cooked into fruit sauces.",
+          "notes": "Choose sweet, in-season strawberries for best tolerance."
+        },
+        {
+          "id": "raspberries",
+          "name": "Raspberries",
+          "status": "testing",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["raspberry", "raspberries", "malina", "maline", "berries", "fruit", "voce"],
+          "reaction": "Currently testing due to small seeds and natural tartness.",
+          "preparation": "Eaten raw, lightly simmered, or baked into warm dishes.",
+          "notes": "Cooking or straining seeds can help if stomach sensitivity occurs."
+        },
+        {
+          "id": "watermelon",
+          "name": "Watermelon",
+          "status": "testing",
+          "techniques": ["raw"],
+          "keywords": ["watermelon", "lubenica", "melon", "fruit", "voce"],
+          "reaction": "Testing tolerance; high water volume can sometimes dilute digestive fire.",
+          "preparation": "Eaten fresh raw in moderate portions.",
+          "notes": "Best enjoyed separately from heavy meals."
+        },
+        {
+          "id": "lemon",
+          "name": "Lemon",
+          "status": "caution",
+          "techniques": ["raw", "boiled", "baked"],
+          "keywords": ["lemon", "limun", "citrus", "seasoning", "fruit", "voce"],
+          "reaction": "Tolerated in small amounts as seasoning; larger amounts or direct consumption can cause acid reflux and stomach irritation.",
+          "preparation": "Raw juice squeezed over food, or cooked/baked into dishes as seasoning.",
+          "notes": "In small amounts as seasoning."
+        },
+        {
+          "id": "lime",
+          "name": "Lime",
+          "status": "caution",
+          "techniques": ["raw", "boiled", "baked"],
+          "keywords": ["lime", "limeta", "citrus", "seasoning", "fruit", "voce"],
+          "reaction": "Tolerated in small amounts as seasoning; excessive acidity can irritate sensitive stomach lining.",
+          "preparation": "Raw juice squeezed as seasoning, or cooked/baked into dishes.",
+          "notes": "In small amounts as seasoning."
+        }
+      ]
+    },
+    {
+      "id": "dairy-fats",
+      "name": "Dairy, Fats & Oils",
+      "items": [
+        {
+          "id": "extra-virgin-olive-oil",
+          "name": "Extra Virgin Olive Oil",
+          "status": "allowed",
+          "techniques": ["raw", "stewed"],
+          "keywords": ["olive oil", "evoo", "oil", "fat", "maslinovo ulje"],
+          "reaction": "Soothing and well tolerated in small amounts.",
+          "preparation": "Drizzled over warm food after cooking, or light low-heat sauté.",
+          "notes": "Primary healthy fat source; use sparingly."
+        },
+        {
+          "id": "ghee",
+          "name": "Ghee (Clarified Butter)",
+          "status": "testing",
+          "techniques": ["baked", "stewed"],
+          "keywords": ["ghee", "clarified butter", "butter", "gi", "puter"],
+          "reaction": "No adverse reaction. Rich flavor without milk protein issues.",
+          "preparation": "Used for cooking vegetables and proteins.",
+          "notes": "Milk solids are filtered out, making it safe despite lactose sensitivity."
+        },
+        {
+          "id": "goat-cheese",
+          "name": "Goat Cheese",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["goat cheese", "kozji sir", "goat", "cheese", "sir"],
+          "reaction": "Well tolerated raw and baked.",
+          "preparation": "Eaten fresh or melted over baked dishes.",
+          "notes": "Lower in lactose than cow's milk cheese; easier on digestion."
+        },
+        {
+          "id": "greek-yogurt",
+          "name": "Greek Yogurt",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["greek yogurt", "grcki jogurt", "yogurt", "jogurt", "dairy"],
+          "reaction": "Well tolerated, soothing and probiotic-rich.",
+          "preparation": "Eaten plain or used in baked dishes.",
+          "notes": "Higher protein, lower lactose than regular yogurt. Avoid flavoured varieties."
+        },
+        {
+          "id": "greek-type-yogurt",
+          "name": "Greek-Style Yogurt",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["greek style yogurt", "grcki tip jogurt", "yogurt", "jogurt", "dairy"],
+          "reaction": "Well tolerated, similar to Greek yogurt.",
+          "preparation": "Eaten plain or used in cooking.",
+          "notes": "Strained yogurt with thick consistency; probiotic benefits."
+        },
+        {
+          "id": "kefir",
+          "name": "Kefir",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["kefir", "kephir", "dairy", "fermented milk"],
+          "reaction": "Well tolerated, supports gut flora.",
+          "preparation": "Drunk plain or used in smoothies and baking.",
+          "notes": "Fermented; naturally lower in lactose and probiotic-rich."
+        },
+        {
+          "id": "feta-cheese",
+          "name": "Feta Cheese",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["feta", "feta cheese", "feta sir", "greek cheese", "sir"],
+          "reaction": "Well tolerated in moderate amounts.",
+          "preparation": "Crumbled over salads or baked in dishes.",
+          "notes": "Made from sheep's milk; lower in fat than many other cheeses."
+        },
+        {
+          "id": "paneer-cheese",
+          "name": "Paneer Cheese",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["paneer", "panir", "indian cheese", "fresh cheese", "sir"],
+          "reaction": "Well tolerated raw.",
+          "preparation": "Eaten fresh; can be cubed and added to dishes.",
+          "notes": "Fresh unaged cheese; naturally lactose-low."
+        },
+        {
+          "id": "white-cheese",
+          "name": "White Cheese (Brined)",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["white cheese", "beli sir", "brined cheese", "sir", "cheese"],
+          "reaction": "Well tolerated in moderate portions.",
+          "preparation": "Eaten raw or used in baked goods.",
+          "notes": "Rinse excess brine to reduce salt intake."
+        },
+        {
+          "id": "fresh-mozzarella",
+          "name": "Fresh Mozzarella",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["mozzarella", "mozarela", "fresh cheese", "sir", "cheese"],
+          "reaction": "Well tolerated, mild and gentle.",
+          "preparation": "Sliced fresh or melted on baked dishes.",
+          "notes": "Fresh (not processed) mozzarella only."
+        },
+        {
+          "id": "gouda",
+          "name": "Gouda",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["gouda", "gouda sir", "cheese", "sir", "aged cheese"],
+          "reaction": "Well tolerated in moderate portions.",
+          "preparation": "Sliced raw or melted in baked dishes.",
+          "notes": "Aged cheeses are generally lower in lactose."
+        },
+        {
+          "id": "cottage-cheese",
+          "name": "Cottage Cheese",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["cottage cheese", "svjezi sir", "svezi sir", "cheese", "sir"],
+          "reaction": "Well tolerated.",
+          "preparation": "Eaten plain or used in baked goods.",
+          "notes": "High in protein, low in fat; very gentle on the stomach."
+        },
+        {
+          "id": "parmesan",
+          "name": "Parmesan Cheese",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["parmesan", "parmigiano", "parmezan", "aged cheese", "sir", "cheese"],
+          "reaction": "Well tolerated in small amounts; very low in lactose.",
+          "preparation": "Grated over dishes or used in baking.",
+          "notes": "Long-aged; essentially lactose-free. Use sparingly due to salt content."
+        },
+        {
+          "id": "coconut-milk",
+          "name": "Coconut Milk (Additive-Free)",
+          "status": "caution",
+          "techniques": ["soup", "stewed"],
+          "keywords": ["coconut milk", "coconut", "kokosovo mleko"],
+          "reaction": "Fine in small amounts (2-3 tbsp), but higher fat quantities can trigger nausea.",
+          "preparation": "Added to rice dishes or soups.",
+          "notes": "Must contain 100% coconut extract without guar gum or carrageenan."
+        },
+        {
+          "id": "cow-milk-dairy",
+          "name": "Cow Milk & Fresh Cheeses",
+          "status": "avoid",
+          "techniques": ["raw"],
+          "keywords": ["milk", "cheese", "dairy", "yogurt", "lactose", "mleko", "sir"],
+          "reaction": "Immediate bloating, stomach rumbling, pain, and indigestion.",
+          "preparation": "Tested as whole milk, yogurt, and fresh cottage cheese.",
+          "notes": "Lactose and casein intolerance; completely eliminated."
+        }
+      ]
+    },
+    {
+      "id": "condiments-spices",
+      "name": "Condiments & Spices",
+      "items": [
+        {
+          "id": "turmeric",
+          "name": "Turmeric",
+          "status": "allowed",
+          "keywords": ["turmeric", "kurkuma", "spice", "zacin"],
+          "reaction": "Well tolerated; anti-inflammatory properties.",
+          "preparation": "Added to cooked dishes, soups, or golden milk.",
+          "notes": "Powerful anti-inflammatory spice; use with black pepper to boost absorption."
+        },
+        {
+          "id": "salt",
+          "name": "Sea Salt",
+          "status": "allowed",
+          "keywords": ["salt", "sea salt", "so", "morska so"],
+          "reaction": "No adverse reactions.",
+          "preparation": "Used in cooking as the primary seasoning.",
+          "notes": "Pure sea salt or Himalayan salt preferred."
+        },
+        {
+          "id": "black-pepper",
+          "name": "Black Pepper",
+          "status": "caution",
+          "keywords": ["black pepper", "biber", "crni biber", "pepper", "spice"],
+          "reaction": "Tolerated in very small amounts only.",
+          "preparation": "Used ground in very small amounts or whole in soups (then removed).",
+          "notes": "Small ground amounts or whole peppercorns in soup only. Too much triggers irritation."
+        },
+        {
+          "id": "oregano",
+          "name": "Dried Oregano",
+          "status": "allowed",
+          "keywords": ["oregano", "origano", "suvi origano", "herb", "zacinsko bilje"],
+          "reaction": "Well tolerated.",
+          "preparation": "Added dried to baked dishes and soups.",
+          "notes": "Classic Mediterranean herb; no known irritation."
+        },
+        {
+          "id": "thyme",
+          "name": "Thyme",
+          "status": "allowed",
+          "keywords": ["thyme", "timijan", "majcina dusica", "herb", "zacinsko bilje"],
+          "reaction": "Well tolerated.",
+          "preparation": "Added dried or fresh to cooked dishes.",
+          "notes": "Gentle aromatic herb, great with poultry and fish."
+        },
+        {
+          "id": "garlic-powder",
+          "name": "Garlic Powder",
+          "status": "testing",
+          "keywords": ["garlic powder", "beli luk u prahu", "garlic", "spice"],
+          "reaction": "Currently testing — known FODMAP concern but powder form may be tolerated.",
+          "preparation": "Used in very small amounts in baked goods or cooked dishes.",
+          "notes": "Testing carefully; traditional garlic is a confirmed trigger."
+        },
+        {
+          "id": "vanilla-extract",
+          "name": "Vanilla Extract",
+          "status": "allowed",
+          "keywords": ["vanilla", "vanilla extract", "vanila", "vanilija", "baking"],
+          "reaction": "No adverse reactions.",
+          "preparation": "Added to baked goods and desserts.",
+          "notes": "Use pure vanilla extract, not artificial vanilla flavouring."
+        },
+        {
+          "id": "cinnamon",
+          "name": "Cinnamon",
+          "status": "allowed",
+          "keywords": ["cinnamon", "cimet", "spice", "baking"],
+          "reaction": "Well tolerated; warming and soothing.",
+          "preparation": "Added to baked goods, porridge, and stewed fruits.",
+          "notes": "Ceylon cinnamon preferred over Cassia for long-term use."
+        },
+        {
+          "id": "carob",
+          "name": "Carob",
+          "status": "allowed",
+          "techniques": ["baked", "boiled"],
+          "keywords": ["carob", "rogac", "rogač", "chocolate substitute", "baking"],
+          "reaction": "Well tolerated; no caffeine or theobromine like cocoa.",
+          "preparation": "Used in baked goods or cooked into drinks.",
+          "notes": "Natural cocoa substitute; naturally sweet and caffeine-free."
+        },
+        {
+          "id": "mustard",
+          "name": "Mustard",
+          "status": "allowed",
+          "keywords": ["mustard", "senf", "slacica", "slačica", "condiment"],
+          "reaction": "Well tolerated without stomach irritation.",
+          "preparation": "Used as a condiment or added to meals.",
+          "notes": "Plain mustard without added sugars or irritating additives."
+        },
+        {
+          "id": "honey",
+          "name": "Honey",
+          "status": "caution",
+          "techniques": ["raw", "baked"],
+          "keywords": ["honey", "med", "sweetener", "raw honey"],
+          "reaction": "Tolerated in small amounts; larger quantities can cause bloating due to fructose.",
+          "preparation": "Consumed raw in small amounts or lightly used in baking.",
+          "notes": "In small amounts only. High fructose content can trigger digestive symptoms if consumed in excess."
+        },
+        {
+          "id": "maple-syrup",
+          "name": "Maple Syrup",
+          "status": "caution",
+          "techniques": ["raw", "baked"],
+          "keywords": ["maple syrup", "javorov sirup", "sweetener", "pancake syrup"],
+          "reaction": "Tolerated in small amounts without issues.",
+          "preparation": "Drizzled raw over food or used in baking.",
+          "notes": "In small amounts only. Use 100% pure maple syrup without artificial flavorings or corn syrup."
+        }
+      ]
+    },
+    {
+      "id": "teas-beverages",
+      "name": "Teas & Beverages",
+      "items": [
+        {
+          "id": "mint-tea",
+          "name": "Mint Tea",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["mint tea", "peppermint tea", "caj od nane", "nana caj", "herbal tea", "tea"],
+          "reaction": "Soothing on the stomach; helps relax the digestive tract.",
+          "preparation": "Steeped in freshly boiled water for 5–10 minutes.",
+          "notes": "Pure dried mint leaves; gentle herbal infusion."
+        },
+        {
+          "id": "chamomile-tea",
+          "name": "Chamomile Tea",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["chamomile tea", "caj od kamilice", "kamilica", "herbal tea", "tea"],
+          "reaction": "Gentle and calming on the stomach lining, no negative symptoms.",
+          "preparation": "Steeped in freshly boiled water for 5–10 minutes.",
+          "notes": "Pure dried chamomile flowers; soothing and easy to digest."
+        }
+      ]
+    }
+  ]
+}
