@@ -1,0 +1,1320 @@
+{
+  "title": "Hrana",
+  "subtitle": "Eliminaciona dijeta i dnevnik reakcija na namirnice",
+  "description": [
+    "Pošto već neko vreme imam problema sa stomakom i probavom, moja ishrana je prilično striktna i pratim eliminacionu dijetu.",
+    "Ispod se nalazi spisak namirnica koje sam do sada isprobao i kako je moje telo reagovalo na svaku od njih. Takođe sam zabeležio specifičan način na koji sam pripremao svaku namirnicu i šta mi najviše odgovara."
+  ],
+  "collaps": "Sakrij",
+  "expand": "Prikaži",
+  "generalRules": [
+    {
+      "id": "minimal-seasoning",
+      "title": "Minimalno začinjavanje",
+      "description": "Isključivo se koristi čista morska ili krupna so. Bez crnog ili crvenog bibera, aleve paprike, belog/crnog luka u prahu ili mešavina industrijskih začina."
+    },
+    {
+      "id": "gentle-heat",
+      "title": "Blaga termička obrada",
+      "description": "Kuvanje u vodi/supi, kuvanje na pari, umereno pečenje u rerni (u papiru za pečenje radi zadržavanja sočnosti) i lagano dinstanje. Strogo bez prženja u dubokom ulju ili zagorelih, reš pečenih delova."
+    },
+    {
+      "id": "peeled-deseeded",
+      "title": "Oljušteno i bez semenki",
+      "description": "Povrće i voće se temeljno ljušti i uklanjaju se krupnije semenke, kako bi se smanjila gruba nerastvorljiva vlakna koja iritiraju sluzokožu creva."
+    },
+    {
+      "id": "healthy-fats",
+      "title": "Kontrolisane zdrave masti",
+      "description": "Koristi se isključivo ekstra devičansko maslinovo ulje (najčešće preliveno preko tople hrane nakon pripreme) ili pročišćeni puter (ghee). Bez industrijskih rafinisanih ulja od semenki."
+    },
+    {
+      "id": "freshness",
+      "title": "Svežina obroka",
+      "description": "Hrana se priprema sveža za svaki obrok ili zamrzava odmah nakon pripreme. Izbegava se dugo stajanje u frižideru radi smanjenja nivoa histamina."
+    }
+  ],
+  "labels": {
+    "searchPlaceholder": "Pretraži namirnice, način pripreme ili reakcije...",
+    "allCategories": "Sve kategorije",
+    "allStatuses": "Svi statusi",
+    "allTechniques": "Sve tehnike",
+    "resetFilters": "Poništi filtere",
+    "statusLabels": {
+      "allowed": "Dozvoljeno",
+      "caution": "Oprez",
+      "avoid": "Izbegavati",
+      "testing": "U testiranju"
+    },
+    "techniqueLabels": {
+      "raw": "Sirovo",
+      "boiled": "Kuvano",
+      "simmered": "Krčkano",
+      "steamed": "Na pari",
+      "soup": "Supe / Čorbe",
+      "baked": "Pečeno u rerni",
+      "pan-cooked": "Pečeno u tiganju",
+      "fried": "Prženo u ulju",
+      "stewed": "Dinstano",
+      "grilled": "Sa roštilja"
+    },
+    "generalRulesTitle": "Opšta pravila i principi pripreme hrane",
+    "techniquesTitle": "Tehnike pripreme",
+    "preparationLabel": "Priprema",
+    "reactionLabel": "Reakcija",
+    "notesLabel": "Beleške",
+    "noResults": "Nema namirnica koje odgovaraju unetim kriterijumima pretrage.",
+    "resultsCount": "prikazanih namirnica",
+    "viewCards": "Kartice",
+    "viewTable": "Tabela",
+    "tableHeaders": {
+      "name": "Namirnica",
+      "category": "Kategorija",
+      "status": "Status",
+      "reaction": "Reakcija",
+      "preparation": "Priprema",
+      "notes": "Beleške"
+    }
+  },
+  "categories": [
+    {
+      "id": "meat-poultry",
+      "name": "Meso i živina",
+      "items": [
+        {
+          "id": "chicken-breast",
+          "name": "Pileća prsa",
+          "status": "allowed",
+          "techniques": ["boiled", "soup", "baked"],
+          "keywords": ["piletina", "pile", "belo meso", "chicken"],
+          "reaction": "Odlično podnosim, bez ikakvih tegoba, nadutosti ili težine u stomaku.",
+          "preparation": "Kuvana u supi ili pečena u rerni / na tiganju sa malo soli i maslinovog ulja.",
+          "notes": "Nemasno meso, najlakše za varenje i osnovni izvor proteina."
+        },
+        {
+          "id": "chicken-leg-thigh",
+          "name": "Pileći batak i karabatak",
+          "status": "allowed",
+          "techniques": ["baked", "soup", "boiled"],
+          "keywords": ["piletina", "pile", "batak", "karabatak", "chicken"],
+          "reaction": "Dobro podnosim, bez neprijatnih reakcija. Malo je sočnije od prsa, ali se lako vari.",
+          "preparation": "Pečeno u rerni ili kuvano u supi, sa malo soli.",
+          "notes": "Sočnije tamno meso, dobar izvor gvožđa."
+        },
+        {
+          "id": "chicken-wings",
+          "name": "Pileća krilca",
+          "status": "allowed",
+          "techniques": ["baked", "soup"],
+          "keywords": ["piletina", "pile", "krilca", "krilce", "chicken"],
+          "reaction": "Podnosim bez problema dokle god se pripremaju blago, bez jakih začina.",
+          "preparation": "Pečena u rerni samo sa malo soli i maslinovog ulja dok ne omekšaju.",
+          "notes": "Pripremljena jednostavno, bez pohovanja ili teških marinada."
+        },
+        {
+          "id": "turkey-breast",
+          "name": "Ćureća prsa",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["ćuretina", "curetina", "curece", "ćurka", "curka", "belo meso", "turkey"],
+          "reaction": "Izuzetno blago za stomak, bez ikakvih smetnji ili nadimanja.",
+          "preparation": "Kuvana ili lagano pečena u rerni (u foliji ili papiru za pečenje radi sočnosti), samo sa solju.",
+          "notes": "Odlična alternativa pilećim prsima, veoma čisto nemasno meso."
+        },
+        {
+          "id": "turkey-leg-thigh",
+          "name": "Ćureći batak i karabatak",
+          "status": "allowed",
+          "techniques": ["baked", "stewed"],
+          "keywords": ["ćuretina", "curetina", "curece", "ćurka", "curka", "batak", "karabatak", "turkey"],
+          "reaction": "Dobro podnosim, zasitno i ne stvara osećaj težine kada se lepo skuva ili ispeče.",
+          "preparation": "Lagano dinstano ili pečeno u rerni na umerenoj vatri sa solju.",
+          "notes": "Bogatije meso tamnije boje, hranljivo i zasitno."
+        },
+        {
+          "id": "turkey-wings",
+          "name": "Ćureća krilca",
+          "status": "allowed",
+          "techniques": ["soup", "baked"],
+          "keywords": ["ćuretina", "curetina", "curece", "ćurka", "curka", "krilca", "turkey"],
+          "reaction": "Prija stomaku, posebno kada se lagano kuvaju u domaćoj supi.",
+          "preparation": "Kuvana u supi ili lagano pečena u rerni sa malo vode i soli.",
+          "notes": "Odlična za kuvanje blage domaće supe bogate kolagenom."
+        }
+      ]
+    },
+    {
+      "id": "fish-seafood",
+      "name": "Riba i morski plodovi",
+      "items": [
+        {
+          "id": "salmon",
+          "name": "Losos",
+          "status": "allowed",
+          "techniques": ["baked", "grilled", "pan-cooked"],
+          "keywords": ["losos", "riba", "salmon", "fish"],
+          "reaction": "Veoma prija, pruža stabilnu energiju bez ikakvog pritiska u želucu.",
+          "preparation": "Pržen na tiganju na blagoj vatri ili pečen u papiru za pečenje.",
+          "notes": "Ključni izvor zdravih omega-3 masnih kiselina."
+        },
+        {
+          "id": "tuna",
+          "name": "Sveža tuna",
+          "status": "allowed",
+          "techniques": ["pan-cooked", "grilled", "baked"],
+          "keywords": ["tuna", "tunjevina", "tuna odrezak", "odrezak tune", "sveza tuna", "riba", "fish"],
+          "reaction": "Kompaktna i zasitna, lagana za stomak kada nije prepečena.",
+          "preparation": "Kratko zapečena na tiganju ili roštilju.",
+          "notes": "Bogat izvor nemasnih proteina i esencijalnih minerala."
+        },
+        {
+          "id": "canned-tuna-brine",
+          "name": "Tunjevina u sopstvenom soku",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["tunjevina u sopstvenom soku", "tunjevina u vodi", "tunjevina", "tuna u soku", "tuna", "riba", "fish"],
+          "reaction": "Praktična, lagana i veoma nežna za stomak kada se dobro ocedi.",
+          "preparation": "Dobro oceđena i pomešana u salatama, kinoa ili pirinač činijama.",
+          "notes": "Prednost ima tunjevina u sopstvenom soku (vodi) u odnosu na onu u ulju radi lakšeg varenja."
+        },
+        {
+          "id": "white-fish",
+          "name": "Bela riba (Oslić / Bakalar)",
+          "status": "allowed",
+          "techniques": ["boiled", "baked", "pan-cooked"],
+          "keywords": ["riba", "oslić", "oslic", "bakalar", "bela riba", "fish", "hake", "cod"],
+          "reaction": "Izuzetno lagano i lako svarljivo. Bez simptoma.",
+          "preparation": "Kuvano u supi od povrća, pečeno u rerni ili spremljeno u fritezi na vruć vazduh.",
+          "notes": "Najsigurniji obrok kada je stomak osetljiv."
+        },
+        {
+          "id": "sea-bass",
+          "name": "Brancin",
+          "status": "allowed",
+          "techniques": ["baked", "grilled", "pan-cooked"],
+          "keywords": ["brancin", "brancin riba", "morska riba", "riba", "sea bass", "fish"],
+          "reaction": "Nežan, mekan i izuzetno lako svarljiv.",
+          "preparation": "Pečen ceo u rerni sa začinskim biljem ili kao filet na roštilju.",
+          "notes": "Nemasna morska riba blagog i finog ukusa."
+        },
+        {
+          "id": "trout",
+          "name": "Pastrmka",
+          "status": "allowed",
+          "techniques": ["baked", "grilled", "pan-cooked"],
+          "keywords": ["pastrmka", "recna riba", "rečna riba", "riba", "trout", "fish"],
+          "reaction": "Prijatna za stomak i veoma hranljiva.",
+          "preparation": "Kratko pržena u tiganju ili pečena cela u rerni sa limunom.",
+          "notes": "Olična slatkovodna alternativa bogata omega-3 masnim kiselinama."
+        },
+        {
+          "id": "sea-bream",
+          "name": "Orada",
+          "status": "allowed",
+          "techniques": ["baked", "grilled", "pan-cooked"],
+          "keywords": ["orada", "orada riba", "morska riba", "riba", "sea bream", "fish"],
+          "reaction": "Lagana i čistog ukusa, bez ikakvog osećaja težine.",
+          "preparation": "Pečena cela u rerni ili na roštilju.",
+          "notes": "Popularna mediteranska riba sa belim, blago slatkastim mesom."
+        },
+        {
+          "id": "mackerel",
+          "name": "Skuša",
+          "status": "testing",
+          "techniques": ["pan-cooked", "grilled"],
+          "keywords": ["skuša", "skusa", "plava riba", "morska riba", "mackerel", "fish", "riba"],
+          "reaction": "Trenutno u fazi testiranja tolerancije zbog većeg sadržaja prirodnih masti.",
+          "preparation": "Pečena na roštilju ili u tiganju sa limunom radi lakšeg varenja.",
+          "notes": "Izuzetno bogata omega-3 masnim kiselinama, ali njena masnija struktura zahteva oprezno testiranje."
+        }
+      ]
+    },
+    {
+      "id": "grains-starches",
+      "name": "Žitarice i skrob",
+      "items": [
+        {
+          "id": "white-rice",
+          "name": "Beli pirinač (Jasmin / Basmati)",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["pirinac", "riza", "riža", "jasmin", "basmati", "rice"],
+          "reaction": "Potpuno bezbedan. Odličan izvor ugljenih hidrata bez nadutosti.",
+          "preparation": "Dobro ispran, kuvan dok ne omekša u slanoj vodi.",
+          "notes": "Glavna osnova moje eliminacione dijete."
+        },
+        {
+          "id": "potatoes",
+          "name": "Krompir",
+          "status": "allowed",
+          "techniques": ["boiled", "baked", "soup"],
+          "keywords": ["krompir", "pire", "potato", "potatoes"],
+          "reaction": "Bezbedan i hranljiv, ne stvara digestivne tegobe.",
+          "preparation": "Oljušten i kuvan dok sasvim ne omekša, pečen u rerni ili dodat u supe.",
+          "notes": "Obavezno dobro oljušten; kora krompira se izbegava."
+        },
+        {
+          "id": "sweet-potatoes",
+          "name": "Batat (Slatki krompir)",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["batat", "slatki krompir", "sweet potato"],
+          "reaction": "Dobro se podnosi, lako se vari.",
+          "preparation": "Oljušten, isečen na kockice i kuvan ili pečen u rerni.",
+          "notes": "Obezbeđuje dobra vlakna bez iritacije stomaka."
+        },
+        {
+          "id": "polenta",
+          "name": "Palenta",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["palenta", "polenta", "kukuruzna kaca", "kukuruzna kaša"],
+          "reaction": "Dobro se podnosi, blaga za varenje.",
+          "preparation": "Kuvana u glatku kašu ili pečena u rerni.",
+          "notes": "Bez glutena i laka za stomak."
+        },
+        {
+          "id": "millet",
+          "name": "Proso",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["proso", "millet"],
+          "reaction": "Dobro se podnosi, blago i lako svarljivo.",
+          "preparation": "Isprano i kuvano u vodi dok ne postane prhko, ili pečeno u jelima.",
+          "notes": "Drevna žitarica bez glutena, odlična zamena za pirinač."
+        },
+        {
+          "id": "millet-flakes",
+          "name": "Prosene pahuljice",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["proso pahuljice", "prosene pahuljice", "millet flakes"],
+          "reaction": "Lako za varenje, bez neželjenih reakcija.",
+          "preparation": "Kuvane u toplu kašu na vodi.",
+          "notes": "Brza alternativa ovsenim pahuljicama."
+        },
+        {
+          "id": "rice-flakes",
+          "name": "Pirinčane pahuljice",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["pirinac pahuljice", "pirinčane pahuljice", "rice flakes"],
+          "reaction": "Veoma blage, bez nadutosti ili tegoba.",
+          "preparation": "Kuvane u jednostavnu kašu sa vodom i prstohvatom soli.",
+          "notes": "Jedna od najblaži opcija za doručak."
+        },
+        {
+          "id": "gf-oats",
+          "name": "Ovas bez glutena",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["ovas", "ovsene pahuljice", "kasa", "kaša", "oats", "oatmeal", "gluten free ovas"],
+          "reaction": "Dobro se podnosi u umerenim količinama.",
+          "preparation": "Kuvana kaša na vodi, ili pečen u grickalicama.",
+          "notes": "Koristiti sertifikovano žito bez glutena."
+        },
+        {
+          "id": "rice-gritz",
+          "name": "Pirinčani griz",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["pirinac griz", "pirinčani griz", "rice gritz", "rice grits"],
+          "reaction": "Veoma dobro se podnosi, lagan i lako svarljiv.",
+          "preparation": "Pečen ili kuvan u gustu kašu.",
+          "notes": "Griz bez glutena od pirinča."
+        },
+        {
+          "id": "wheat-gluten",
+          "name": "Pšenica i hleb sa glutenom",
+          "status": "avoid",
+          "techniques": ["baked"],
+          "keywords": ["psenica", "pšenica", "gluten", "hleb", "hljeb", "testenina", "wheat", "bread"],
+          "reaction": "Jaka nadutost, mentalna magla, gasovi i bolovi u stomaku koji traju 24-48 sati.",
+          "preparation": "Standardni kiseli hleb ili beli pšenični hleb.",
+          "notes": "Potvrđeni okidač simptoma; strogo izbegavanje."
+        }
+      ]
+    },
+    {
+      "id": "pasta-alternatives",
+      "name": "Testenine i rezanci",
+      "items": [
+        {
+          "id": "buckwheat-pasta",
+          "name": "Heljdina testenina",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["heljdina testenina", "buckwheat pasta", "testenina bez glutena"],
+          "reaction": "Dobro se podnosi, bez nadutosti ili težine.",
+          "preparation": "Kuvana al dente u slanoj vodi, začinjena maslinovim uljem.",
+          "notes": "Testenina bez glutena sa zemaljskim ukusom."
+        },
+        {
+          "id": "rice-pasta",
+          "name": "Pirinčana testenina",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["pirinac testenina", "pirinčana testenina", "rice pasta", "testenina bez glutena"],
+          "reaction": "Blaga za stomak, bez tegoba.",
+          "preparation": "Kuvana u slanoj vodi i kratko isprana.",
+          "notes": "Neutralan ukus, dobro ide uz svaki umak."
+        },
+        {
+          "id": "rice-noodles",
+          "name": "Pirinčani rezanci",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["pirinac rezanci", "pirinčani rezanci", "rice noodles", "azijski rezanci"],
+          "reaction": "Veoma lagani, brzo se kuvaju, lako svarljivi.",
+          "preparation": "Potopljeni ili kratko kuvani prema uputstvu na pakovanju.",
+          "notes": "Odlična osnova za supe i wok jela."
+        },
+        {
+          "id": "red-lentil-pasta",
+          "name": "Testenina od crvenog sočiva",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["Testenina od crvene leće", "socivo", "testenina od lece", "testenina od crvene lece", "red lentil pasta", "testenina bez glutena"],
+          "reaction": "Dobro se podnosi u umerenim porcijama.",
+          "preparation": "Kuvana u slanoj vodi; ne prekuvavati.",
+          "notes": "Bogata proteinima i vlaknima; isprati nakon kuvanja radi smanjenja skroba."
+        },
+        {
+          "id": "barilla-gluten-free-pasta",
+          "name": "Barilla testenina bez glutena",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["barilla", "barilla testenina", "testenina bez glutena", "gluten free pasta", "barila"],
+          "reaction": "Dobro se podnosi, bez nadutosti, grčeva ili težine.",
+          "preparation": "Kuvana u posoljenoj vodi (al dente).",
+          "notes": "Testenina bez glutena od kukuruza i pirinča; dobro drži teksturu."
+        },
+        {
+          "id": "schar-gluten-free-pasta",
+          "name": "Schär testenina bez glutena",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["schar", "schär", "schar testenina", "testenina bez glutena", "gluten free pasta"],
+          "reaction": "Dobro se podnosi, lako svarljiva i bez stomačnih tegoba.",
+          "preparation": "Kuvana u posoljenoj vodi prema uputstvu sa pakovanja.",
+          "notes": "Testenina bez glutena od kukuruznog i pirinčanog brašna."
+        }
+      ]
+    },
+    {
+      "id": "flours-baking",
+      "name": "Brašna i pečenje",
+      "items": [
+        {
+          "id": "rice-flour",
+          "name": "Pirinčano brašno",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["pirinac brasno", "pirinčano brašno", "rice flour", "brasno bez glutena"],
+          "reaction": "Dobro se podnosi, bez reakcija.",
+          "preparation": "Korišćeno u pecivu kao osnovno brašno bez glutena.",
+          "notes": "Svestrano neutralno brašno bez glutena."
+        },
+        {
+          "id": "chickpea-flour",
+          "name": "Brašno od leblebija",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["leblebija brasno", "brašno od leblebija", "chickpea flour", "besan", "gram flour"],
+          "reaction": "Dobro se podnosi kada je pečeno.",
+          "preparation": "Korišćeno u pecivu, palačinkama i flatbreadu.",
+          "notes": "Bogato proteinima; dodaje gustinu pecivu."
+        },
+        {
+          "id": "buckwheat-flour",
+          "name": "Heljdino brašno",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["heljdino brasno", "heljdino brašno", "buckwheat flour", "brasno bez glutena"],
+          "reaction": "Bez neželjenih reakcija.",
+          "preparation": "Korišćeno u palačinkama, pecivu i hlebu.",
+          "notes": "Zemaljski ukus; obično se meša sa drugim brašnom bez glutena."
+        },
+        {
+          "id": "millet-flour",
+          "name": "Proseno brašno",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["proso brasno", "proseno brašno", "millet flour", "brasno bez glutena"],
+          "reaction": "Dobro se podnosi.",
+          "preparation": "Korišćeno u pecivu, često mešano sa drugim brašnima bez glutena.",
+          "notes": "Lagan, blag ukus; dobro u maffinima i flatbreadu."
+        },
+        {
+          "id": "gf-oat-flour",
+          "name": "Ovseno brašno bez glutena",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["ovas brasno", "ovseno brašno", "gluten free oat flour", "brasno bez glutena"],
+          "reaction": "Dobro se podnosi u pečenom obliku.",
+          "preparation": "Korišćeno u pecivu poput maffinisa, keksa i palačinki.",
+          "notes": "Koristiti sertifikovano ovseno brašno bez glutena."
+        },
+        {
+          "id": "corn-flour",
+          "name": "Kukuruzno brašno",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["kukuruzno brasno", "kukuruzno brašno", "corn flour", "brasno bez glutena"],
+          "reaction": "Bez negativnih reakcija.",
+          "preparation": "Korišćeno u pecivu za strukturu i teksturu.",
+          "notes": "Fino mleveno; razlikuje se od grubog kukuruznog brašna."
+        },
+        {
+          "id": "almond-flour",
+          "name": "Bademovo brašno",
+          "status": "allowed",
+          "techniques": ["baked", "raw"],
+          "keywords": ["bademovo brasno", "bademovo brašno", "almond flour", "brasno bez glutena", "badem"],
+          "reaction": "Dobro se podnosi, bez reakcija.",
+          "preparation": "Sirovo u energetskim kuglicama ili pečeno u kolačima.",
+          "notes": "Visoko u zdravim mastima; porcije umerene."
+        },
+        {
+          "id": "schar-mix-b",
+          "name": "Schär Mix B brašno",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["schar", "schär", "mix b", "brasno bez glutena", "schar mix"],
+          "reaction": "Dobro se podnosi.",
+          "preparation": "Korišćeno kao zamena 1:1 za pšenično brašno u pecivu.",
+          "notes": "Komercijalna mešavina brašna bez glutena; pouzdano za hleb i pecivo."
+        },
+        {
+          "id": "schar-mix-c",
+          "name": "Schär Mix C brašno",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["schar", "schär", "mix c", "brasno bez glutena", "schar mix"],
+          "reaction": "Dobro se podnosi.",
+          "preparation": "Najboljie za kolače, kekse i testo za pecivo.",
+          "notes": "Finija mešavina od Mix B; odlično za delikatno pecivo."
+        },
+        {
+          "id": "schar-farina",
+          "name": "Schär Farina brašno",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["schar", "schär", "farina", "brasno bez glutena", "schar mix"],
+          "reaction": "Dobro se podnosi.",
+          "preparation": "Korišćeno za testo za testeninu, hleb i pecivo.",
+          "notes": "Svestrano svakodnevno brašno bez glutena od Schär-a."
+        },
+        {
+          "id": "baking-powder",
+          "name": "Prašak za pecivo",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["prasak za pecivo", "prašak za pecivo", "baking powder", "kvasac"],
+          "reaction": "Bez neželjenih reakcija.",
+          "preparation": "Korišćeno kao sredstvo za dizanje u pecivu.",
+          "notes": "Proveriti etiketu za sertifikat bez glutena."
+        },
+        {
+          "id": "psyllium-husk",
+          "name": "Psilijum ljuspice",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["psilijum", "psilijum ljuspice", "psyllium", "psyllium husk", "vezivo", "vlakna"],
+          "reaction": "Dobro se podnosi u pecivima; podržava redovnu probavu.",
+          "preparation": "Korišćen u bezglutenskom pečenju kao vezivo i za poboljšanje teksture.",
+          "notes": "Ključno vezivo za bezglutenske hlebove i peciva; bogato rastvorljivim vlaknima."
+        }
+      ]
+    },
+    {
+      "id": "legumes",
+      "name": "Mahunarke",
+      "items": [
+        {
+          "id": "chickpea",
+          "name": "Leblebije (Slanutak)",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["slanutak", "leblebija", "chickpea", "chickpeas", "garbanzo"],
+          "reaction": "Dobro se podnosi kada se pravilno skuvaju i u umerenim količinama.",
+          "preparation": "Namočeno preko noći i kuvano dok potpuno ne omekša.",
+          "notes": "Dobro isprati nakon kuvanja radi smanjenja oligosaharida koji izazivaju gasove."
+        },
+        {
+          "id": "red-lentil",
+          "name": "Crveno sočivo",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["crveno socivo", "socivo", "crvena leca", "crvena leća", "leca", "leća", "red lentil"],
+          "reaction": "Dobro se podnosi, bez značajne nadutosti kada se temeljno skuva.",
+          "preparation": "Krčkano sa vodom dok sasvim ne omekša; nije potrebno prethodno namakanje.",
+          "notes": "Polovana leća se brzo kuva i gubi ljusku, što je čini lakšom za varenje."
+        },
+        {
+          "id": "hummus",
+          "name": "Humus",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["humus", "hummus", "namaz od leblebija", "leblebija namaz", "slanutak"],
+          "reaction": "Dobro se podnosi u umerenim porcijama.",
+          "preparation": "Pomešane kuvane leblebije, tahini, maslinovo ulje i so (bez sirovog belog luka).",
+          "notes": "Klasičan namaz od leblebija i tahinija; najbolje pripremati bez sirovog belog luka."
+        }
+      ]
+    },
+    {
+      "id": "nuts-seeds",
+      "name": "Orašasti plodovi, semenke i masla",
+      "items": [
+        {
+          "id": "almonds",
+          "name": "Bademi",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["badem", "bademi", "almond", "almonds", "orasasti plodovi"],
+          "reaction": "Dobro se podnosi sirovo u umerenim porcijama.",
+          "preparation": "Konzumirano sirovo kao užina.",
+          "notes": "Bogato vitaminom E i zdravim mastima."
+        },
+        {
+          "id": "roasted-peanuts",
+          "name": "Pečeni kikiriki",
+          "status": "allowed",
+          "techniques": ["baked"],
+          "keywords": ["kikiriki", "peceni kikiriki", "pečeni kikiriki", "peanut", "peanuts"],
+          "reaction": "Dobro se podnosi kada je pečen bez aditiva.",
+          "preparation": "Suvo pečen bez dodatnog ulja, soli ili začina.",
+          "notes": "Tehnički mahunar; dobro se podnosi kada je jednostavno pečen."
+        },
+        {
+          "id": "cashews",
+          "name": "Indijski orah (Kašu)",
+          "status": "testing",
+          "techniques": ["raw"],
+          "keywords": ["indijski orah", "kasju", "kašu", "cashew", "cashews"],
+          "reaction": "Trenutno u testiranju — veći sadržaj masti zahteva pažljivo praćenje porcija.",
+          "preparation": "Konzumirano sirovo u malim količinama.",
+          "notes": "Kremasta tekstura; testiram toleranciju pre redovnog uvođenja."
+        },
+        {
+          "id": "pistachios",
+          "name": "Pistaci",
+          "status": "allowed",
+          "techniques": ["baked", "raw"],
+          "keywords": ["pistaći", "pistaci", "pistachio", "pistachios", "orasasti plodovi"],
+          "reaction": "Dobro se podnosi u umerenim porcijama.",
+          "preparation": "Konzumirano sirovo ili lagano pečeno bez aditiva.",
+          "notes": "Bogati proteinima i mineralima."
+        },
+        {
+          "id": "peanut-butter",
+          "name": "Kikiriki puter (100% čist)",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["kikiriki puter", "peanut butter", "nut butter", "kikiriki"],
+          "reaction": "Dobro se podnosi kada je 100% čist bez dodatnih ulja ili šećera.",
+          "preparation": "Namazan sirovo na pirinčane galete ili pomešan u kašu.",
+          "notes": "Samo 100% kikiriki — bez palminog ulja ili dodatnog šećera."
+        },
+        {
+          "id": "almond-butter",
+          "name": "Bademov puter (100% čisto)",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["bademovo maslo", "almond butter", "nut butter", "badem", "puter od badema", "puter"],
+          "reaction": "Dobro se podnosi u umerenim količinama.",
+          "preparation": "Namazano sirovo na pirinčane galete ili dodato u smutije.",
+          "notes": "Samo 100% bademi; bez dodatnih ulja ili zaslađivača."
+        },
+        {
+          "id": "flax-seed",
+          "name": "Laneno seme (mleveno)",
+          "status": "allowed",
+          "techniques": ["raw", "boiled"],
+          "keywords": ["laneno seme", "lan", "flax seed", "flaxseed", "mleveno laneno seme"],
+          "reaction": "Dobro se podnosi, podržava redovnu probavu.",
+          "preparation": "Mleveno i dodato u kašu ili umešano u kuvana jela.",
+          "notes": "Mora biti mleveno da bi se otključale nutritivne prednosti; celo seme prolazi nevareno."
+        },
+        {
+          "id": "chia-seed",
+          "name": "Chia semenke",
+          "status": "allowed",
+          "techniques": ["raw", "boiled"],
+          "keywords": ["chia seme", "chia", "chia seed", "semenke"],
+          "reaction": "Dobro se podnosi sirovo i kuvano.",
+          "preparation": "Natopljeno u vodi ili biljnom mleku da formira gel, ili dodato u pecivo.",
+          "notes": "Bogato omega-3 i rastvorljivim vlaknima; uvek hidratizovati pre konzumiranja."
+        },
+        {
+          "id": "tahini",
+          "name": "Tahini",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["tahini", "tahin", "susamov puter", "susamova pasta", "susam", "semenke"],
+          "reaction": "Dobro se podnosi u umerenim količinama.",
+          "preparation": "Korišćen sirov kao namaz, u prelivima ili u pripremi humusa.",
+          "notes": "100% mleveni susam bez dodatka soli, ulja ili konzervansa."
+        }
+      ]
+    },
+    {
+      "id": "vegetables",
+      "name": "Povrće",
+      "items": [
+        {
+          "id": "carrots",
+          "name": "Šargarepa",
+          "status": "allowed",
+          "techniques": ["steamed", "boiled", "soup"],
+          "keywords": ["sargarepa", "šargarepa", "mrkva", "carrot", "carrots"],
+          "reaction": "Nema nikakvih problema kada je kuvana.",
+          "preparation": "Kuvana dok ne omekša ili pripremljena na pari; nikada sirova.",
+          "notes": "Sirova šargarepa je previše gruba za moje varenje."
+        },
+        {
+          "id": "zucchini",
+          "name": "Tikvice",
+          "status": "allowed",
+          "techniques": ["stewed", "steamed"],
+          "keywords": ["tikvice", "tikvica", "zucchini", "courgette"],
+          "reaction": "Veoma blage za sluzokožu želuca, nula tegoba.",
+          "preparation": "Oljuštene i lagano dinstane na maslinovom ulju.",
+          "notes": "Jedno od najboljih povrća tokom oporavka."
+        },
+        {
+          "id": "swiss-chard",
+          "name": "Blitva",
+          "status": "allowed",
+          "techniques": ["boiled", "baked", "soup", "steamed"],
+          "keywords": ["blitva", "swiss chard", "chard", "lisnato povrce"],
+          "reaction": "Dobro se podnosi kada je kuvana.",
+          "preparation": "Blanširana, pečena, dodata u supe ili na pari.",
+          "notes": "Bogata mineralima; kuvati temeljno da bi se omekšala vlakna."
+        },
+        {
+          "id": "arugula",
+          "name": "Rukola",
+          "status": "allowed",
+          "techniques": ["raw", "boiled"],
+          "keywords": ["rukola", "rucola", "arugula", "arugola", "rocket", "lisnato povrce"],
+          "reaction": "Dobro se podnosi kuvana i sirova u umerenim količinama.",
+          "preparation": "Konzumirana sirova u salatama ili kratko uvenuta/kuvana.",
+          "notes": "Piperan ukus se ublažava kratkim kuvanjem."
+        },
+        {
+          "id": "butternut-squash",
+          "name": "Muskatna bundeva (Butternut)",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["bundeva", "muskatna bundeva", "butternut squash", "squash"],
+          "reaction": "Dobro se podnosi, blaga za stomak.",
+          "preparation": "Oljuštena, isečena i pečena ili kuvana u supama.",
+          "notes": "Slatka i kremasta kada je pečena; jedna od najlakše svarljivih bundeva."
+        },
+        {
+          "id": "red-kuri-squash",
+          "name": "Crvena bundeva (Red Kuri / Hokkaido)",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["crvena bundeva", "hokkaido bundeva", "red kuri squash", "hokkaido", "bundeva"],
+          "reaction": "Dobro se podnosi, slično kao muskatna bundeva.",
+          "preparation": "Oljuštena i pečena ili kuvana u supama.",
+          "notes": "Ukus nalik kestenu. Kora je jestiva kada se peče."
+        },
+        {
+          "id": "beets",
+          "name": "Cvekla",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["cvekla", "beets", "beetroot", "korenasto povrce", "povrce"],
+          "reaction": "Dobro se podnosi kada je temeljno skuvana ili pečena; blaga za stomak.",
+          "preparation": "Kuvana dok ne omekša ili pečena u rerni; oljuštena nakon kuvanja.",
+          "notes": "Slatko i hranljivo korenasto povrće; dobro skuvati ili ispeći radi lakšeg varenja vlakana."
+        },
+        {
+          "id": "kale",
+          "name": "Kelj (Kale)",
+          "status": "testing",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["kelj", "kale", "lisnato povrce"],
+          "reaction": "Trenutno u testiranju — bogato vlaknima i potencijalno jako za probavu.",
+          "preparation": "Temeljno kuvano; pečeno u čips formi ili dodato u supe.",
+          "notes": "Dobro izmasirati ili temeljno skuvati radi razgradnje tvrdih vlakana."
+        },
+        {
+          "id": "collard-greens",
+          "name": "Raštan",
+          "status": "allowed",
+          "techniques": ["boiled", "baked"],
+          "keywords": ["rastan", "kolard", "collard greens", "zelje", "lisnato povrce"],
+          "reaction": "Dobro se podnosi kada se dobro skuva.",
+          "preparation": "Kuvano u vodi dok ne omekša, pečeno ili dodato u supe.",
+          "notes": "Slično kelju ali blaže; kuvati duže radi bolje svarljivosti."
+        },
+        {
+          "id": "eggplant",
+          "name": "Plavi patlidžan",
+          "status": "avoid",
+          "techniques": ["baked"],
+          "keywords": ["plavi patlidan", "plavi patlidžan", "patlidzan", "eggplant", "aubergine"],
+          "reaction": "Ne podnosi se; izaziva digestivne tegobe.",
+          "preparation": "Testirano pečeno u rerni.",
+          "notes": "Povrće iz porodice pomoćnica; potvrđeni okidač."
+        },
+        {
+          "id": "tomato",
+          "name": "Paradajz",
+          "status": "avoid",
+          "techniques": ["raw"],
+          "keywords": ["paradajz", "rajčica", "tomato", "tomatoes"],
+          "reaction": "Ne podnosi se sirov; izaziva iritaciju i gorušicu.",
+          "preparation": "Testirano sirovo.",
+          "notes": "Pomoćnica; visoka kiselost izaziva gorušicu. Potpuno izbegavati."
+        },
+        {
+          "id": "spinach",
+          "name": "Kuvani spanać",
+          "status": "testing",
+          "techniques": ["boiled", "steamed"],
+          "keywords": ["spanac", "spanać", "zelje", "spinach"],
+          "reaction": "Male količine su u redu, ali veće porcije izazivaju ubrzanu probavu.",
+          "preparation": "Blanširan, višak vode dobro oceđen.",
+          "notes": "Testiram nivo oksalata i toleranciju porcija."
+        },
+        {
+          "id": "onion",
+          "name": "Crni luk",
+          "status": "caution",
+          "techniques": ["soup"],
+          "keywords": ["crni luk", "luk", "crveni luk", "onion", "supa", "soup"],
+          "reaction": "Podnosi se kada se koristi isključivo za aromu supa; direktno jedenje izaziva grčeve i nadutost.",
+          "preparation": "Kuvan u supi radi arome, zatim se uklanja i ne jede direktno.",
+          "notes": "Koristiti samo za dodavanje arome supama, ne jesti direktno."
+        },
+        {
+          "id": "garlic",
+          "name": "Beli luk",
+          "status": "caution",
+          "techniques": ["soup"],
+          "keywords": ["beli luk", "cesnjak", "češnjak", "garlic", "supa", "soup"],
+          "reaction": "Podnosi se kada se kuva u supi radi arome; direktno konzumiranje izaziva nadutost i tegobe.",
+          "preparation": "Kuvan u celini u supi radi arome, zatim se uklanja i ne jede direktno.",
+          "notes": "Koristiti samo za dodavanje arome supama, ne jesti direktno."
+        }
+      ]
+    },
+    {
+      "id": "mushrooms",
+      "name": "Pečurke",
+      "items": [
+        {
+          "id": "shiitake-mushrooms",
+          "name": "Šitake pečurke",
+          "status": "allowed",
+          "techniques": ["boiled", "baked", "soup", "pan-cooked"],
+          "keywords": ["sitake", "šitake", "shitake", "shiitake", "pecurka", "pečurka", "pecurke"],
+          "reaction": "Dobro se podnose kada su kuvane.",
+          "preparation": "Pečene u tiganju, u rerni ili dodane u supe i čorbe.",
+          "notes": "Jačaju imunitet i daju bogat umami ukus; uvek kuvati, nikada sirove."
+        },
+        {
+          "id": "oyster-mushrooms",
+          "name": "Bukovače",
+          "status": "allowed",
+          "techniques": ["boiled", "baked", "soup", "pan-cooked"],
+          "keywords": ["bukovaca", "bukovača", "bukovace", "oyster mushroom", "pecurka", "pečurka"],
+          "reaction": "Dobro se podnose, lagane i lako svarljive.",
+          "preparation": "Pečene u tiganju, u rerni ili dodane u supe.",
+          "notes": "Nežna tekstura; kuvati na srednoj vatri dok ne porumene."
+        }
+      ]
+    },
+    {
+      "id": "fruit",
+      "name": "Voće",
+      "items": [
+        {
+          "id": "kiwi",
+          "name": "Kivi",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["kivi", "kiwi", "voce", "voće", "fruit"],
+          "reaction": "Dobro se podnosi sirovo; prijatno i osvežavajuće.",
+          "preparation": "Oljušten i svež sirov.",
+          "notes": "Bogat vitaminom C; potpuno ukloniti koru pre konzumiranja."
+        },
+        {
+          "id": "apples",
+          "name": "Jabuke",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["jabuka", "jabuke", "apple", "apples", "voće", "voce", "fruit"],
+          "reaction": "Slatke, umirujuće i prijatne za stomak, posebno kada su pečene ili kuvane.",
+          "preparation": "Sirove, pečene cele sa cimetom ili kuvane u kompotu.",
+          "notes": "Pektin iz kuvanih i pečenih jabuka izuzetno prija digestivnom traktu."
+        },
+        {
+          "id": "pears",
+          "name": "Kruške",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["kruška", "kruške", "kruska", "kruske", "pear", "pears", "voće", "voce", "fruit"],
+          "reaction": "Nežne za želudac i odlično hidriraju.",
+          "preparation": "Sveže zrele kriške, blago poširane u vodi ili pečene u rerni.",
+          "notes": "Birajte slatke i zrele kruške radi lakšeg varenja."
+        },
+        {
+          "id": "peaches",
+          "name": "Breskve",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["breskva", "breskve", "peach", "peaches", "voće", "voce", "fruit"],
+          "reaction": "Rashlađuju, osvežavaju i ne opterećuju varenje.",
+          "preparation": "Sveže sirove, blago dinstane ili pečene polovine.",
+          "notes": "Najbolje je jesti ih potpuno zrele i oljuštene ako ljuska smeta."
+        },
+        {
+          "id": "nectarines",
+          "name": "Nektarine",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["nektarina", "nektarine", "nectarine", "nectarines", "voće", "voce", "fruit"],
+          "reaction": "Sočne i slatke sa prijatnim osvežavajućim efektom.",
+          "preparation": "Sveže ili blago kuvane u toploj voćnoj činiji.",
+          "notes": "Sličnog profila kao breskve, veoma prijatne kada su potpuno zrele."
+        },
+        {
+          "id": "apricots",
+          "name": "Kajsije",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["kajsija", "kajsije", "apricot", "apricots", "voće", "voce", "fruit"],
+          "reaction": "Hranljive i lako se podnose kada su mekane i zrele.",
+          "preparation": "Sveže, blago kuvane ili pečene u toplim poslasticama.",
+          "notes": "Bogate beta-karotenom i nežnim dijetetskim vlaknima."
+        },
+        {
+          "id": "sweet-cherries",
+          "name": "Trešnje",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["trešnja", "trešnje", "tresnja", "tresnje", "slatka tresnja", "sweet cherry", "voće", "voce", "fruit"],
+          "reaction": "Prijatno rashlađuju i daju stabilnu energiju bez težine u stomaku.",
+          "preparation": "Sveže sirove ili blago prokuvane.",
+          "notes": "Odlično voće za osveženje i balans tokom toplijih dana."
+        },
+        {
+          "id": "sour-cherries",
+          "name": "Višnje",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["višnja", "višnje", "visnja", "visnje", "sour cherry", "cherries", "voće", "voce", "fruit"],
+          "reaction": "Osvežavajuće, najbolje se podnose kada su kuvane ili pečene.",
+          "preparation": "Kuvane u kompotu, pečene ili sirove ako su potpuno zrele.",
+          "notes": "Malo kisjelije od trešanja; kuvanje ublažava kiselost i olakšava varenje."
+        },
+        {
+          "id": "melon",
+          "name": "Dinja",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["dinja", "melon", "cantaloupe", "honeydew", "voće", "voce", "fruit"],
+          "reaction": "Izuzetno hidrira, lagana je i brzo se vari.",
+          "preparation": "Sveža i sirova, idealno na prazan stomak.",
+          "notes": "Najbolje je jesti je samostalno radi najbržeg i najlakšeg varenja."
+        },
+        {
+          "id": "blueberries",
+          "name": "Borovnice",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["borovnica", "borovnice", "blueberry", "blueberries", "bobičasto voće", "voće", "voce", "fruit"],
+          "reaction": "Lagane, veoma umirujuće i bogate antioksidansima.",
+          "preparation": "Sveže sirove, umešane u toplu kašu ili pečene.",
+          "notes": "Jedna od najpogodnijih vrsta bobičastog voća za osetljiv stomak."
+        },
+        {
+          "id": "bananas",
+          "name": "Banane",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["banana", "banane", "bananas", "voće", "voce", "fruit"],
+          "reaction": "Daju stabilnu energiju i nežne su prema sluzokoži želuca.",
+          "preparation": "Sirove kada su potpuno zrele sa pegicama, ili pečene.",
+          "notes": "Pazite da banane budu sasvim zrele kako bi skrob bio lakše svarljiv."
+        },
+        {
+          "id": "avocado",
+          "name": "Avokado",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["avokado", "avocado", "voće", "voce", "fruit"],
+          "reaction": "Kremast, zasitan i veoma nežan za digestivni trakt.",
+          "preparation": "Svež sirov u kriškama, izgnječen u namaz ili u činijama.",
+          "notes": "Izvor zdravih mononezasićenih masti koje pomažu apsorpciju nutrijenata."
+        },
+        {
+          "id": "figs",
+          "name": "Smokve",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["smokva", "smokve", "fig", "figs", "voće", "voce", "fruit"],
+          "reaction": "Prirodno slatke, zasitne i podstiču uredno varenje.",
+          "preparation": "Sveže sirove, blago poširane ili pečene u rerni.",
+          "notes": "Bogat izvor prirodnih rastvorljivih vlakana i minerala."
+        },
+        {
+          "id": "strawberries",
+          "name": "Jagode",
+          "status": "allowed",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["jagoda", "jagode", "strawberry", "strawberries", "bobičasto voće", "voće", "voce", "fruit"],
+          "reaction": "Lagane, aromatične i lako svarljive kada su slatke i zrele.",
+          "preparation": "Sveže sirove ili blago kuvane u voćne prelive.",
+          "notes": "Birajte slatke, sezonske jagode za najbolju toleranciju."
+        },
+        {
+          "id": "raspberries",
+          "name": "Maline",
+          "status": "testing",
+          "techniques": ["raw", "simmered", "baked"],
+          "keywords": ["malina", "maline", "raspberry", "raspberries", "bobičasto voće", "voće", "voce", "fruit"],
+          "reaction": "Trenutno u fazi testiranja zbog sitnih semenki i prirodne kiselosti.",
+          "preparation": "Sveže sirove, blago kuvane ili pečene u toplim jelima.",
+          "notes": "Kratko kuvanje ili pasiranje radi uklanjanja semenki može olakšati varenje."
+        },
+        {
+          "id": "watermelon",
+          "name": "Lubenica",
+          "status": "testing",
+          "techniques": ["raw"],
+          "keywords": ["lubenica", "watermelon", "voće", "voce", "fruit"],
+          "reaction": "U fazi testiranja; velika količina vode može ponekad razblažiti želudačne sokove.",
+          "preparation": "Sveža sirova u umerenim porcijama.",
+          "notes": "Najbolje prija kada se konzumira odvojeno od obimnih obroka."
+        },
+        {
+          "id": "lemon",
+          "name": "Limun",
+          "status": "caution",
+          "techniques": ["raw", "boiled", "baked"],
+          "keywords": ["limun", "lemon", "citrus", "limunov sok", "zacin", "začin", "voce", "voće"],
+          "reaction": "Podnosi se u malim količinama kao začin; veće količine ili direktno konzumiranje mogu izazvati gorušicu i iritaciju želuca.",
+          "preparation": "Sveže ceđen sok preko hrane, ili kuvan/pečen u jelima kao začin.",
+          "notes": "U malim količinama kao začin."
+        },
+        {
+          "id": "lime",
+          "name": "Limeta",
+          "status": "caution",
+          "techniques": ["raw", "boiled", "baked"],
+          "keywords": ["limeta", "lime", "citrus", "sok od limete", "zacin", "začin", "voce", "voće"],
+          "reaction": "Podnosi se u malim količinama kao začin; prekomerna kiselost može iritirati osetljivu sluzokožu stomaka.",
+          "preparation": "Sveže ceđen sok kao začin, ili kuvan/pečen u jelima.",
+          "notes": "U malim količinama kao začin."
+        }
+      ]
+    },
+    {
+      "id": "dairy-fats",
+      "name": "Mlečni proizvodi, masti i ulja",
+      "items": [
+        {
+          "id": "extra-virgin-olive-oil",
+          "name": "Ekstra devičansko maslinovo ulje",
+          "status": "allowed",
+          "techniques": ["raw", "stewed"],
+          "keywords": ["maslinovo ulje", "ulje", "olive oil"],
+          "reaction": "Umirujuće i odlično podnošljivo u malim količinama.",
+          "preparation": "Preliveno preko tople hrane nakon kuvanja, ili lagano dinstanje na niskoj temperaturi.",
+          "notes": "Glavni izvor zdravih masnoća; koristiti umereno."
+        },
+        {
+          "id": "ghee",
+          "name": "Gi (Prečišćeni puter)",
+          "status": "testing",
+          "techniques": ["baked", "stewed"],
+          "keywords": ["gi", "ghee", "puter", "maslac", "precisceni puter"],
+          "reaction": "Nema neželjenih reakcija. Bogat ukus bez problema sa mlečnim proteinima.",
+          "preparation": "Korišćen za pripremu povrća i proteina.",
+          "notes": "Mlečne čvrste materije su uklonjene, što ga čini bezbednim uprkos osetljivosti na laktozu."
+        },
+        {
+          "id": "goat-cheese",
+          "name": "Kozji sir",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["kozji sir", "goat cheese", "sir", "cheese"],
+          "reaction": "Dobro se podnosi sirov i pečen.",
+          "preparation": "Konzumiran svež ili otopljen u pečenim jelima.",
+          "notes": "Niži sadržaj laktoze od kravljeg sira; lakši za varenje."
+        },
+        {
+          "id": "greek-yogurt",
+          "name": "Grčki jogurt",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["grcki jogurt", "grčki jogurt", "greek yogurt", "jogurt", "dairy"],
+          "reaction": "Dobro se podnosi, umirujući i bogat probioticima.",
+          "preparation": "Konzumiran čist ili korišćen u pečenim jelima.",
+          "notes": "Više proteina, manje laktoze od običnog jogurta. Izbegavati aromatizirane varijante."
+        },
+        {
+          "id": "greek-type-yogurt",
+          "name": "Jogurt grčkog tipa",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["grcki tip jogurt", "jogurt grckog tipa", "greek style yogurt", "jogurt"],
+          "reaction": "Dobro se podnosi, slično grčkom jogurtu.",
+          "preparation": "Konzumiran čist ili korišćen u kuvanju.",
+          "notes": "Ceđeni jogurt guste konzistencije; probiotičke koristi."
+        },
+        {
+          "id": "kefir",
+          "name": "Kefir",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["kefir", "fermentisano mleko", "dairy"],
+          "reaction": "Dobro se podnosi, podržava crevnu floru.",
+          "preparation": "Pijen čist ili korišćen u smutijima i pecivu.",
+          "notes": "Fermentisan; prirodno niži sadržaj laktoze i bogat probioticima."
+        },
+        {
+          "id": "feta-cheese",
+          "name": "Feta sir",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["feta", "feta sir", "greek cheese", "sir", "cheese"],
+          "reaction": "Dobro se podnosi u umerenim količinama.",
+          "preparation": "Izmrven u salatama ili pečen u jelima.",
+          "notes": "Napravljen od ovčijeg mleka; niži sadržaj masti od mnogih sireva."
+        },
+        {
+          "id": "paneer-cheese",
+          "name": "Panir sir",
+          "status": "allowed",
+          "techniques": ["raw"],
+          "keywords": ["panir", "paneer", "indijski sir", "svezi sir", "sir"],
+          "reaction": "Dobro se podnosi sirov.",
+          "preparation": "Konzumiran svež; može se iseckati i dodati u jela.",
+          "notes": "Svež negazirani sir; prirodno nizak sadržaj laktoze."
+        },
+        {
+          "id": "white-cheese",
+          "name": "Beli sir (u salamuri)",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["beli sir", "sir u salamuri", "white cheese", "sir", "cheese"],
+          "reaction": "Dobro se podnosi u umerenim porcijama.",
+          "preparation": "Konzumiran sirov ili korišćen u pecivu.",
+          "notes": "Isprati višak salamure radi smanjenja unosa soli."
+        },
+        {
+          "id": "fresh-mozzarella",
+          "name": "Sveža mocarela",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["mocarela", "mozzarella", "svezi sir", "sir", "cheese"],
+          "reaction": "Dobro se podnosi, blaga i nežna.",
+          "preparation": "Isečena sveža ili otopljena u pečenim jelima.",
+          "notes": "Samo sveža (ne prerađena) mocarela."
+        },
+        {
+          "id": "gouda",
+          "name": "Gauda sir",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["gauda", "gouda", "sir", "cheese", "odležani sir"],
+          "reaction": "Dobro se podnosi u umerenim porcijama.",
+          "preparation": "Isečena sirova ili otopljena u pečenim jelima.",
+          "notes": "Odležani sirevi su generalno niži u laktoži."
+        },
+        {
+          "id": "cottage-cheese",
+          "name": "Svježi sir (Cottage)",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["svjezi sir", "svezi sir", "cottage cheese", "sir", "cheese"],
+          "reaction": "Dobro se podnosi.",
+          "preparation": "Konzumiran čist ili korišćen u pecivu.",
+          "notes": "Bogato proteinima, malo masti; veoma blago za stomak."
+        },
+        {
+          "id": "parmesan",
+          "name": "Parmezan",
+          "status": "allowed",
+          "techniques": ["raw", "baked"],
+          "keywords": ["parmezan", "parmigiano", "parmesan", "odležani sir", "sir", "cheese"],
+          "reaction": "Dobro se podnosi u malim količinama; veoma nizak sadržaj laktoze.",
+          "preparation": "Narendan po jelima ili korišćen u pečenju.",
+          "notes": "Dugo odležan; suštinski bez laktoze. Koristiti umereno zbog sadržaja soli."
+        },
+        {
+          "id": "coconut-milk",
+          "name": "Kokosovo mleko (bez aditiva)",
+          "status": "caution",
+          "techniques": ["soup", "stewed"],
+          "keywords": ["kokos", "kokosovo mleko", "coconut milk"],
+          "reaction": "U redu u malim količinama (2-3 kašike), ali veća količina masti izaziva mučninu.",
+          "preparation": "Dodato u jela od pirinča ili čorbe.",
+          "notes": "Mora biti 100% ekstrakt kokosa bez guar gume ili karagenana."
+        },
+        {
+          "id": "cow-milk-dairy",
+          "name": "Kravlje mleko i mladi sirevi",
+          "status": "avoid",
+          "techniques": ["raw"],
+          "keywords": ["mleko", "sir", "mladi sir", "jogurt", "laktoza", "milk", "cheese", "dairy"],
+          "reaction": "Trenutna nadutost, krčanje u stomaku, bol i otežano varenje.",
+          "preparation": "Testirano punomasno mleko, jogurt i mladi sir.",
+          "notes": "Intolerancija na laktozu i kazein; potpuno eliminisano."
+        }
+      ]
+    },
+    {
+      "id": "condiments-spices",
+      "name": "Začini i dodaci",
+      "items": [
+        {
+          "id": "turmeric",
+          "name": "Kurkuma",
+          "status": "allowed",
+          "keywords": ["kurkuma", "turmeric", "zacin", "začin"],
+          "reaction": "Dobro se podnosi; ima antiinflamatorna svojstva.",
+          "preparation": "Dodato u kuvana jela, supe ili zlatno mleko.",
+          "notes": "Moćan antiinflamatorni začin; koristiti sa crnim biberom radi bolje apsorpcije."
+        },
+        {
+          "id": "salt",
+          "name": "Morska so",
+          "status": "allowed",
+          "keywords": ["so", "morska so", "salt", "sea salt"],
+          "reaction": "Bez neželjenih reakcija.",
+          "preparation": "Korišćena u kuvanju kao primarni začin.",
+          "notes": "Čista morska ili himalajska so su preferirane."
+        },
+        {
+          "id": "black-pepper",
+          "name": "Crni biber",
+          "status": "caution",
+          "keywords": ["crni biber", "biber", "black pepper", "pepper", "zacin"],
+          "reaction": "Podnosi se samo u veoma malim količinama.",
+          "preparation": "Korišćen mleven u veoma malim količinama ili u celini u supama (pa se uklanja).",
+          "notes": "Male mlevene količine ili celi zrna bibera u supi. Previše izaziva iritaciju."
+        },
+        {
+          "id": "oregano",
+          "name": "Sušeni origano",
+          "status": "allowed",
+          "keywords": ["origano", "oregano", "suvi origano", "zacinsko bilje"],
+          "reaction": "Dobro se podnosi.",
+          "preparation": "Dodat sušen u pečena jela i supe.",
+          "notes": "Klasičan mediteranski začin; bez poznatih iritacija."
+        },
+        {
+          "id": "thyme",
+          "name": "Timijan (Majčina dušica)",
+          "status": "allowed",
+          "keywords": ["timijan", "majcina dusica", "majčina dušica", "thyme", "zacinsko bilje"],
+          "reaction": "Dobro se podnosi.",
+          "preparation": "Dodat sušen ili svež u kuvana jela.",
+          "notes": "Blago aromatično bilje, odlično uz živinu i ribu."
+        },
+        {
+          "id": "garlic-powder",
+          "name": "Beli luk u prahu",
+          "status": "testing",
+          "keywords": ["beli luk u prahu", "garlic powder", "beli luk", "garlic"],
+          "reaction": "Trenutno u testiranju — poznata FODMAP zabrinutost ali oblik praha može biti tolerisan.",
+          "preparation": "Korišćen u veoma malim količinama u pecivu ili kuvanim jelima.",
+          "notes": "Oprezno testirati; tradicionalni beli luk je potvrđeni okidač."
+        },
+        {
+          "id": "vanilla-extract",
+          "name": "Ekstrakt vanile",
+          "status": "allowed",
+          "keywords": ["vanila", "vanilija", "ekstrakt vanile", "vanilla extract", "baking"],
+          "reaction": "Bez neželjenih reakcija.",
+          "preparation": "Dodato u pecivo i deserte.",
+          "notes": "Koristiti čisti ekstrakt vanile, ne veštačku aromu."
+        },
+        {
+          "id": "cinnamon",
+          "name": "Cimet",
+          "status": "allowed",
+          "keywords": ["cimet", "cinnamon", "zacin", "začin"],
+          "reaction": "Dobro se podnosi; toplo i umirujuće.",
+          "preparation": "Dodato u pecivo, kašu i dinstano voće.",
+          "notes": "Cejlonski cimet je bolji od Cassia vrste za dugoročnu upotrebu."
+        },
+        {
+          "id": "carob",
+          "name": "Rogač",
+          "status": "allowed",
+          "techniques": ["baked", "boiled"],
+          "keywords": ["rogac", "rogač", "carob", "zamena za čokoladu", "baking"],
+          "reaction": "Dobro se podnosi; bez kofeina i teobromina kao kakao.",
+          "preparation": "Korišćen u pecivu ili kuvan u napitak.",
+          "notes": "Prirodna zamena za kakao; prirodno sladak i bez kofeina."
+        },
+        {
+          "id": "mustard",
+          "name": "Senf",
+          "status": "allowed",
+          "keywords": ["senf", "slacica", "slačica", "mustard", "dodatak jelima", "zacin", "začin"],
+          "reaction": "Dobro se podnosi u umerenim količinama bez iritacije stomaka.",
+          "preparation": "Korišćen kao dodatak jelima ili u prelivima.",
+          "notes": "Čist senf bez nepotrebnih aditiva ili dodatog šećera."
+        },
+        {
+          "id": "honey",
+          "name": "Med",
+          "status": "caution",
+          "techniques": ["raw", "baked"],
+          "keywords": ["med", "honey", "prirodni zasladjivac", "zaslađivač"],
+          "reaction": "Podnosi se u malim količinama; veće količine mogu izazvati nadutost zbog fruktoze.",
+          "preparation": "Konzumira se sirov u malim količinama ili blago u pečenju.",
+          "notes": "Samo u malim količinama. Visok udeo fruktoze može izazvati stomačne smetnje u većim porcijama."
+        },
+        {
+          "id": "maple-syrup",
+          "name": "Javorov sirup",
+          "status": "caution",
+          "techniques": ["raw", "baked"],
+          "keywords": ["javorov sirup", "maple syrup", "zasladjivac", "zaslađivač"],
+          "reaction": "Dobro se podnosi u malim količinama bez smetnji.",
+          "preparation": "Kao preliv u sirovom stanju ili korišćen u pečenju.",
+          "notes": "Samo u malim količinama. Koristiti 100% čist javorov sirup bez veštačkih aroma ili kukuruznog sirupa."
+        }
+      ]
+    },
+    {
+      "id": "teas-beverages",
+      "name": "Čajevi i napici",
+      "items": [
+        {
+          "id": "mint-tea",
+          "name": "Čaj od nane",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["caj od nane", "čaj od nane", "nana", "menta", "mint tea", "biljni caj", "čaj"],
+          "reaction": "Umirujuće deluje na stomak; pomaže opuštanju digestivnog trakta.",
+          "preparation": "Preliven sveže prokuvanom vodom i ostavljen da odstoji 5–10 minuta.",
+          "notes": "Čist sušeni list nane; blag biljni napitak."
+        },
+        {
+          "id": "chamomile-tea",
+          "name": "Čaj od kamilice",
+          "status": "allowed",
+          "techniques": ["boiled"],
+          "keywords": ["caj od kamilice", "čaj od kamilice", "kamilica", "chamomile tea", "biljni caj", "čaj"],
+          "reaction": "Blag i umirujući za sluzokožu želuca, bez neželjenih simptoma.",
+          "preparation": "Preliven sveže prokuvanom vodom i ostavljen da odstoji 5–10 minuta.",
+          "notes": "Čisti sušeni cvetovi kamilice; umiruje stomak i lako se vari."
+        }
+      ]
+    }
+  ]
+}

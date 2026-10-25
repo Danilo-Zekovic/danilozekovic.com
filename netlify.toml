@@ -5,3 +5,8 @@ publish = "dist/client"
 [dev]
 command = "npm run dev"
 framework = "vite"
+
+[[headers]]
+  for = "/food*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive, nosnippet"

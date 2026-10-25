@@ -1,4 +1,63 @@
 User-agent: *
+Disallow: /food
+Disallow: /food/
 Allow: /
+
+# AI Crawlers & Scrapers
+User-agent: GPTBot
+Disallow: /food
+Disallow: /food/
+
+User-agent: ChatGPT-User
+Disallow: /food
+Disallow: /food/
+
+User-agent: ClaudeBot
+Disallow: /food
+Disallow: /food/
+
+User-agent: anthropic-ai
+Disallow: /food
+Disallow: /food/
+
+User-agent: Claude-Web
+Disallow: /food
+Disallow: /food/
+
+User-agent: Google-Extended
+Disallow: /food
+Disallow: /food/
+
+User-agent: PerplexityBot
+Disallow: /food
+Disallow: /food/
+
+User-agent: CCBot
+Disallow: /food
+Disallow: /food/
+
+User-agent: Bytespider
+Disallow: /food
+Disallow: /food/
+
+User-agent: Meta-ExternalAgent
+Disallow: /food
+Disallow: /food/
+
+User-agent: FacebookBot
+Disallow: /food
+Disallow: /food/
+
+User-agent: Applebot-Extended
+Disallow: /food
+Disallow: /food/
+
+User-agent: cohere-ai
+Disallow: /food
+Disallow: /food/
+
+User-agent: Diffbot
+Disallow: /food
+Disallow: /food/
 
 Sitemap: https://danilozekovic.com/sitemap.xml
